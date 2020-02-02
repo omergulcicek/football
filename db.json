@@ -24,7 +24,7 @@
             "flair": 1,
             "special": 0.3
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -47,12 +47,12 @@
             "vision": 0.78,
             "attacking": 0.94,
             "technical": 0.82,
-            "heading": 0.89,
+            "heading": 0.97,
             "mental": 0.82,
             "flair": 0.9,
             "special": 0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -164,7 +164,7 @@
             "flair": 0.35,
             "special": -0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -192,7 +192,7 @@
             "flair": 0.85,
             "special": -0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -204,7 +204,7 @@
       "position": "Forvet",
       "country": "Brazil",
       "team": "PSG",
-      "age": 1985,
+      "age": 1992,
       "legend": false,
       "skills": [
         {
@@ -220,7 +220,7 @@
             "flair": 0.95,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -248,7 +248,7 @@
             "flair": 0.55,
             "special": 0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -276,7 +276,7 @@
             "flair": 0.75,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -289,7 +289,7 @@
       "country": "Italy",
       "team": "",
       "age": 1973,
-      "legend": false,
+      "legend": true,
       "skills": [
         {
           "data": {
@@ -304,7 +304,7 @@
             "flair": 0.3,
             "special": -0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -388,7 +388,7 @@
             "flair": 0.4,
             "special": 0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -416,7 +416,7 @@
             "flair": 0.75,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -457,7 +457,7 @@
       "country": "Spain",
       "team": "",
       "age": 1978,
-      "legend": false,
+      "legend": true,
       "skills": [
         {
           "data": {
@@ -472,7 +472,7 @@
             "flair": 0.25,
             "special": -1
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -485,7 +485,7 @@
       "country": "Italy",
       "team": "",
       "age": 1976,
-      "legend": false,
+      "legend": true,
       "skills": [
         {
           "data": {
@@ -500,7 +500,7 @@
             "flair": 0.2,
             "special": -0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -528,7 +528,7 @@
             "flair": 0.9,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -556,7 +556,7 @@
             "flair": 0.9,
             "special": -0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -584,7 +584,7 @@
             "flair": 0.9,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -640,7 +640,7 @@
             "flair": 0.4,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -668,7 +668,7 @@
             "flair": 0.55,
             "special": 0.3
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -696,7 +696,7 @@
             "flair": 0.9,
             "special": 0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -752,7 +752,7 @@
             "flair": 0.75,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -765,7 +765,7 @@
       "country": "Italy",
       "team": "",
       "age": 1967,
-      "legend": false,
+      "legend": true,
       "skills": [
         {
           "data": {
@@ -808,7 +808,7 @@
             "flair": 0.3,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -836,7 +836,7 @@
             "flair": 0.65,
             "special": 0.7
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -864,7 +864,7 @@
             "flair": 0.6,
             "special": 0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -892,7 +892,7 @@
             "flair": 0.8,
             "special": 0.4
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -920,7 +920,7 @@
             "flair": 0.8,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1116,7 +1116,7 @@
             "flair": 0.35,
             "special": -0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1144,7 +1144,7 @@
             "flair": 0.8,
             "special": -1.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1200,7 +1200,7 @@
             "flair": 0.85,
             "special": -0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1256,7 +1256,7 @@
             "flair": 0.4,
             "special": -0.7
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1284,7 +1284,7 @@
             "flair": 0.45,
             "special": -1
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1312,7 +1312,7 @@
             "flair": 0.5,
             "special": -0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1368,7 +1368,7 @@
             "flair": 0.6,
             "special": -0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1452,7 +1452,7 @@
             "flair": 0.5,
             "special": -1.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1508,7 +1508,7 @@
             "flair": 0.2,
             "special": -0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1564,7 +1564,7 @@
             "flair": 0.75,
             "special": 0.2
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1592,7 +1592,7 @@
             "flair": 0.6,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1620,7 +1620,7 @@
             "flair": 0.75,
             "special": -0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1648,7 +1648,7 @@
             "flair": 0.85,
             "special": -1.3
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1676,7 +1676,7 @@
             "flair": 0.1,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1704,7 +1704,7 @@
             "flair": 0.25,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1760,7 +1760,7 @@
             "flair": 0.75,
             "special": -0.3
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1788,7 +1788,7 @@
             "flair": 0.65,
             "special": -0.3
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1816,7 +1816,7 @@
             "flair": 0.75,
             "special": -0.6
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -1900,7 +1900,7 @@
             "flair": 0.65,
             "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -1956,7 +1956,7 @@
             "flair": 0.65,
             "special": 0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -2012,7 +2012,7 @@
             "flair": 0.6,
             "special": 0.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -2124,7 +2124,7 @@
             "flair": 0.1,
             "special": -0.3
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#23d160" }
         }
       ]
     },
@@ -2180,7 +2180,7 @@
             "flair": 0.4,
             "special": 1
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -2236,7 +2236,7 @@
             "flair": 0.35,
             "special": 1.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -2320,7 +2320,7 @@
             "flair": 0.35,
             "special": 1.5
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#f44336" }
         }
       ]
     },
@@ -2374,6 +2374,1938 @@
             "heading": 0.29,
             "mental": 0.45,
             "flair": 0.9,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "fullname": "Antoine Griezmann",
+      "name": "Griezmann",
+      "picture": "griezmann",
+      "position": "Forvet",
+      "country": "France",
+      "team": "Barcelona",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.72,
+            "speed": 0.81,
+            "vision": 0.86,
+            "attacking": 0.89,
+            "technical": 0.9,
+            "heading": 0.84,
+            "mental": 0.76,
+            "flair": 0.7,
+            "special": -1.2
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "fullname": "Ousmane Dembélé",
+      "name": "Dembélé",
+      "picture": "dembele",
+      "position": "Forvet",
+      "country": "France",
+      "team": "Barcelona",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.36,
+            "physical": 0.57,
+            "speed": 0.93,
+            "vision": 0.78,
+            "attacking": 0.79,
+            "technical": 0.85,
+            "heading": 0.43,
+            "mental": 0.64,
+            "flair": 0.8,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "fullname": "Ivan Rakitić",
+      "name": "Rakitić",
+      "picture": "rakitic",
+      "position": "Orta Saha",
+      "country": "Croatia",
+      "team": "Barcelona",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.5,
+            "physical": 0.7,
+            "speed": 0.62,
+            "vision": 0.85,
+            "attacking": 0.78,
+            "technical": 0.87,
+            "heading": 0.59,
+            "mental": 0.75,
+            "flair": 0.2,
+            "special": 2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "fullname": "Arturo Vidal",
+      "name": "Vidal",
+      "picture": "vidal",
+      "position": "Orta Saha",
+      "country": "Chile",
+      "team": "Barcelona",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.85,
+            "physical": 0.86,
+            "speed": 0.67,
+            "vision": 0.72,
+            "attacking": 0.65,
+            "technical": 0.73,
+            "heading": 0.72,
+            "mental": 0.7,
+            "flair": 0.2,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "fullname": "Arthur Henrique",
+      "name": "Arthur",
+      "picture": "arthur",
+      "position": "Orta Saha",
+      "country": "Brazil",
+      "team": "Barcelona",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.75,
+            "physical": 0.7,
+            "speed": 0.69,
+            "vision": 0.86,
+            "attacking": 0.69,
+            "technical": 0.88,
+            "heading": 0.58,
+            "mental": 0.75,
+            "flair": 0.3,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "fullname": "Samuel Umtiti",
+      "name": "Umtiti",
+      "picture": "umtiti",
+      "position": "Defans",
+      "country": "France",
+      "team": "Barcelona",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.82,
+            "speed": 0.69,
+            "vision": 0.58,
+            "attacking": 0.51,
+            "technical": 0.77,
+            "heading": 0.79,
+            "mental": 0.68,
+            "flair": 0.1,
+            "special": -0.5
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "fullname": "Gareth Bale",
+      "name": "Gareth Bale",
+      "picture": "bale",
+      "position": "Forvet",
+      "country": "Wales",
+      "team": "Real Madrid",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.59,
+            "physical": 0.76,
+            "speed": 0.91,
+            "vision": 0.79,
+            "attacking": 0.84,
+            "technical": 0.84,
+            "heading": 0.84,
+            "mental": 0.7,
+            "flair": 0.65,
+            "special": -1
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "fullname": "Rodrygo Silva de Goes",
+      "name": "Rodrygo",
+      "picture": "rodrygo",
+      "position": "Forvet",
+      "country": "Brazil",
+      "team": "Real Madrid",
+      "age": 2001,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.29,
+            "physical": 0.57,
+            "speed": 0.85,
+            "vision": 0.68,
+            "attacking": 0.74,
+            "technical": 0.86,
+            "heading": 0.62,
+            "mental": 0.6,
+            "flair": 0.85,
+            "special": -0.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "fullname": "Francisco Román Alarcón Suárez",
+      "name": "Isco",
+      "picture": "isco",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "Real Madrid",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.51,
+            "physical": 0.6,
+            "speed": 0.71,
+            "vision": 0.87,
+            "attacking": 0.79,
+            "technical": 0.93,
+            "heading": 0.55,
+            "mental": 0.65,
+            "flair": 0.6,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "fullname": "Raphaël Varane",
+      "name": "Varane",
+      "picture": "varane",
+      "position": "Defans",
+      "country": "France",
+      "team": "Real Madrid",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.82,
+            "physical": 0.8,
+            "speed": 0.83,
+            "vision": 0.59,
+            "attacking": 0.4,
+            "technical": 0.77,
+            "heading": 0.83,
+            "mental": 0.61,
+            "flair": 0.2,
+            "special": -0.5
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "fullname": "Diego da Silva Costa",
+      "name": "Diego Costa",
+      "picture": "dcosta",
+      "position": "Forvet",
+      "country": "Spain",
+      "team": "Atletico Madrid",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.85,
+            "speed": 0.73,
+            "vision": 0.74,
+            "attacking": 0.85,
+            "technical": 0.82,
+            "heading": 0.84,
+            "mental": 0.86,
+            "flair": 0.65,
+            "special": -1
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "fullname": "José María Giménez",
+      "name": "Giménez",
+      "picture": "gimenez",
+      "position": "Defans",
+      "country": "Uruguay",
+      "team": "Atletico Madrid",
+      "age": 1995,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.85,
+            "physical": 0.82,
+            "speed": 0.69,
+            "vision": 0.27,
+            "attacking": 0.37,
+            "technical": 0.16,
+            "heading": 0.81,
+            "mental": 0.68,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "fullname": "Saúl Ñíguez Esclápez",
+      "name": "Saúl",
+      "picture": "saul",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "Atletico Madrid",
+      "age": 1994,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.79,
+            "physical": 0.78,
+            "speed": 0.7,
+            "vision": 0.82,
+            "attacking": 0.78,
+            "technical": 0.85,
+            "heading": 0.83,
+            "mental": 0.7,
+            "flair": 0.3,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "fullname": "Jorge Resurrección",
+      "name": "Koke",
+      "picture": "koke",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "Atletico Madrid",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.74,
+            "physical": 0.79,
+            "speed": 0.68,
+            "vision": 0.85,
+            "attacking": 0.72,
+            "technical": 0.85,
+            "heading": 0.61,
+            "mental": 0.82,
+            "flair": 0.25,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "fullname": "Trent Alexander-Arnold",
+      "name": "Arnold",
+      "picture": "arnold",
+      "position": "Defans",
+      "country": "England",
+      "team": "Liverpool",
+      "age": 1998,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.78,
+            "physical": 0.7,
+            "speed": 0.85,
+            "vision": 0.78,
+            "attacking": 0.8,
+            "technical": 0.82,
+            "heading": 0.68,
+            "mental": 0.8,
+            "flair": 0.3,
+            "special": 1.5
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "fullname": "Joe Gomez",
+      "name": "Joe Gomez",
+      "picture": "joe",
+      "position": "Defans",
+      "country": "England",
+      "team": "Liverpool",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.81,
+            "physical": 0.76,
+            "speed": 0.81,
+            "vision": 0.56,
+            "attacking": 0.26,
+            "technical": 0.7,
+            "heading": 0.71,
+            "mental": 0.7,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "fullname": "Andrew Robertson",
+      "name": "Robertson",
+      "picture": "robertson",
+      "position": "Defans",
+      "country": "Scotland",
+      "team": "Liverpool",
+      "age": 1994,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.82,
+            "physical": 0.75,
+            "speed": 0.85,
+            "vision": 0.77,
+            "attacking": 0.57,
+            "technical": 0.81,
+            "heading": 0.63,
+            "mental": 0.75,
+            "flair": 0.3,
+            "special": -0.7
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "fullname": "Fábio Henrique Tavares",
+      "name": "Fabinho",
+      "picture": "fabinho",
+      "position": "Orta Saha",
+      "country": "Brazil",
+      "team": "Liverpool",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.88,
+            "physical": 0.83,
+            "speed": 0.68,
+            "vision": 0.68,
+            "attacking": 0.66,
+            "technical": 0.72,
+            "heading": 0.75,
+            "mental": 0.65,
+            "flair": 0.1,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "fullname": "Ederson Santana",
+      "name": "Ederson",
+      "picture": "ederson",
+      "position": "Kaleci",
+      "country": "Brazil",
+      "team": "Manchester City",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.76,
+            "speed": 0.64,
+            "vision": 0.61,
+            "attacking": 0.87,
+            "technical": 0.72,
+            "heading": 0.82,
+            "mental": 0.7,
+            "flair": 0.1,
+            "special": 2
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "fullname": "Gonzalo Higuaín",
+      "name": "Higuaín",
+      "picture": "higuain",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "Juventus",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.2,
+            "physical": 0.71,
+            "speed": 0.63,
+            "vision": 0.75,
+            "attacking": 0.88,
+            "technical": 0.84,
+            "heading": 0.77,
+            "mental": 0.7,
+            "flair": 0.5,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "fullname": "Mario Mandžukić",
+      "name": "Mandžukić",
+      "picture": "mandzukic",
+      "position": "Forvet",
+      "country": "Croatia",
+      "team": "Juventus",
+      "age": 1986,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.56,
+            "physical": 0.86,
+            "speed": 0.68,
+            "vision": 0.74,
+            "attacking": 0.85,
+            "technical": 0.79,
+            "heading": 0.9,
+            "mental": 0.95,
+            "flair": 0.6,
+            "special": -2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "fullname": "Blaise Matuidi",
+      "name": "Matuidi",
+      "picture": "matuidi",
+      "position": "Orta Saha",
+      "country": "France",
+      "team": "Juventus",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.81,
+            "speed": 0.75,
+            "vision": 0.74,
+            "attacking": 0.6,
+            "technical": 0.79,
+            "heading": 0.68,
+            "mental": 0.66,
+            "flair": 0.1,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "fullname": "Matthijs de Ligt",
+      "name": "de Ligt",
+      "picture": "deligt",
+      "position": "Defans",
+      "country": "Holland",
+      "team": "Juventus",
+      "age": 1999,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.82,
+            "physical": 0.84,
+            "speed": 0.67,
+            "vision": 0.63,
+            "attacking": 0.5,
+            "technical": 0.74,
+            "heading": 0.85,
+            "mental": 0.75,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "fullname": "Mauro Icardi",
+      "name": "Icardi",
+      "picture": "icardi",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "PSG",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.22,
+            "physical": 0.69,
+            "speed": 0.75,
+            "vision": 0.64,
+            "attacking": 0.89,
+            "technical": 0.8,
+            "heading": 0.88,
+            "mental": 0.78,
+            "flair": 0.65,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "fullname": "Ángel Di María",
+      "name": "Di María",
+      "picture": "dimaria",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "PSG",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.68,
+            "speed": 0.84,
+            "vision": 0.86,
+            "attacking": 0.76,
+            "technical": 0.86,
+            "heading": 0.51,
+            "mental": 0.56,
+            "flair": 0.7,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "fullname": "Marco Verratti",
+      "name": "Verratti",
+      "picture": "verratti",
+      "position": "Orta Saha",
+      "country": "Italy",
+      "team": "PSG",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.79,
+            "physical": 0.66,
+            "speed": 0.65,
+            "vision": 0.87,
+            "attacking": 0.6,
+            "technical": 0.89,
+            "heading": 0.55,
+            "mental": 0.76,
+            "flair": 0.55,
+            "special": 0.8
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "fullname": "Heung Min Son",
+      "name": "Son",
+      "picture": "son",
+      "position": "Forvet",
+      "country": "Korea",
+      "team": "Tottenham",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.39,
+            "physical": 0.68,
+            "speed": 0.88,
+            "vision": 0.71,
+            "attacking": 0.86,
+            "technical": 0.877,
+            "heading": 0.65,
+            "mental": 0.6,
+            "flair": 0.6,
+            "special": -0.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "fullname": "Dele Alli",
+      "name": "Dele Alli",
+      "picture": "alli",
+      "position": "Orta Saha",
+      "country": "England",
+      "team": "Tottenham",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.79,
+            "speed": 0.72,
+            "vision": 0.83,
+            "attacking": 0.82,
+            "technical": 0.86,
+            "heading": 0.63,
+            "mental": 0.71,
+            "flair": 0.55,
+            "special": -0.7
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "fullname": "Axel Witsel",
+      "name": "Axel Witsel",
+      "picture": "witsel",
+      "position": "Orta Saha",
+      "country": "Belgium",
+      "team": "Dortmund",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.8,
+            "physical": 0.81,
+            "speed": 0.73,
+            "vision": 0.55,
+            "attacking": 0.51,
+            "technical": 0.64,
+            "heading": 0.81,
+            "mental": 0.86,
+            "flair": 0.1,
+            "special": -2.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "fullname": "Jadon Sancho",
+      "name": "Jadon Sancho",
+      "picture": "sancho",
+      "position": "Forvet",
+      "country": "England",
+      "team": "Dortmund",
+      "age": 2000,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.29,
+            "physical": 0.6,
+            "speed": 0.88,
+            "vision": 0.83,
+            "attacking": 0.78,
+            "technical": 0.88,
+            "heading": 0.37,
+            "mental": 0.67,
+            "flair": 0.65,
+            "special": -0.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "fullname": "Kurt Zouma",
+      "name": "Kurt Zouma",
+      "picture": "zouma",
+      "position": "Defans",
+      "country": "France",
+      "team": "Chelsea",
+      "age": 1994,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.68,
+            "physical": 0.83,
+            "speed": 0.74,
+            "vision": 0.6,
+            "attacking": 0.47,
+            "technical": 0.63,
+            "heading": 0.79,
+            "mental": 0.64,
+            "flair": 0.2,
+            "special": -0.5
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "fullname": "Philippe Coutinho",
+      "name": "Coutinho",
+      "picture": "coutinho",
+      "position": "Orta Saha",
+      "country": "Brazil",
+      "team": "Bayern Münih",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.49,
+            "physical": 0.64,
+            "speed": 0.79,
+            "vision": 0.86,
+            "attacking": 0.77,
+            "technical": 0.91,
+            "heading": 0.48,
+            "mental": 0.78,
+            "flair": 0.75,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "fullname": "Joshua Kimmich",
+      "name": "Kimmich",
+      "picture": "kimmich",
+      "position": "Defans",
+      "country": "Germany",
+      "team": "Bayern Münih",
+      "age": 1995,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.8,
+            "physical": 0.78,
+            "speed": 0.72,
+            "vision": 0.84,
+            "attacking": 0.66,
+            "technical": 0.85,
+            "heading": 0.74,
+            "mental": 0.83,
+            "flair": 0.45,
+            "special": -1.5
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "fullname": "Jérôme Boateng",
+      "name": "Boateng",
+      "picture": "boateng",
+      "position": "Defans",
+      "country": "Germany",
+      "team": "Bayern Münih",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.8,
+            "physical": 0.82,
+            "speed": 0.66,
+            "vision": 0.75,
+            "attacking": 0.34,
+            "technical": 0.7,
+            "heading": 0.85,
+            "mental": 0.65,
+            "flair": 0.1,
+            "special": -1.3
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "fullname": "Thiago Alcântara",
+      "name": "Thiago",
+      "picture": "thiago",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "Bayern Münih",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.63,
+            "speed": 0.69,
+            "vision": 0.86,
+            "attacking": 0.69,
+            "technical": 0.91,
+            "heading": 0.54,
+            "mental": 0.67,
+            "flair": 0.65,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "fullname": "Lautaro Martínez",
+      "name": "Martínez",
+      "picture": "martinez",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "Inter",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.31,
+            "physical": 0.73,
+            "speed": 0.71,
+            "vision": 0.76,
+            "attacking": 0.82,
+            "technical": 0.82,
+            "heading": 0.72,
+            "mental": 0.75,
+            "flair": 0.75,
+            "special": -1.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "fullname": "Romelu Lukaku",
+      "name": "Romelu Lukaku",
+      "picture": "lukaku",
+      "position": "Forvet",
+      "country": "Belgium",
+      "team": "Inter",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.27,
+            "physical": 0.84,
+            "speed": 0.75,
+            "vision": 0.73,
+            "attacking": 0.84,
+            "technical": 0.7,
+            "heading": 0.85,
+            "mental": 0.76,
+            "flair": 0.35,
+            "special": 0.1
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "fullname": "Timo Werner",
+      "name": "Timo Werner",
+      "picture": "werner",
+      "position": "Forvet",
+      "country": "Germany",
+      "team": "Leipzig",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.27,
+            "physical": 0.69,
+            "speed": 0.92,
+            "vision": 0.61,
+            "attacking": 0.86,
+            "technical": 0.84,
+            "heading": 0.77,
+            "mental": 0.57,
+            "flair": 0.25,
+            "special": 1
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "fullname": "Marcus Rashford",
+      "name": "Rashford",
+      "picture": "rashford",
+      "position": "Forvet",
+      "country": "England",
+      "team": "Manchester United",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.77,
+            "speed": 0.92,
+            "vision": 0.75,
+            "attacking": 0.81,
+            "technical": 0.83,
+            "heading": 0.33,
+            "mental": 0.52,
+            "flair": 0.5,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "fullname": "Mason Greenwood",
+      "name": "Greenwood",
+      "picture": "greenwood",
+      "position": "Forvet",
+      "country": "England",
+      "team": "Manchester United",
+      "age": 2001,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.34,
+            "physical": 0.59,
+            "speed": 0.76,
+            "vision": 0.62,
+            "attacking": 0.77,
+            "technical": 0.66,
+            "heading": 0.62,
+            "mental": 0.42,
+            "flair": 0.5,
+            "special": 0.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "fullname": "Anthony Martial",
+      "name": "Martial",
+      "picture": "martial",
+      "position": "Forvet",
+      "country": "France",
+      "team": "Manchester United",
+      "age": 1995,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.36,
+            "physical": 0.71,
+            "speed": 0.89,
+            "vision": 0.73,
+            "attacking": 0.82,
+            "technical": 0.86,
+            "heading": 0.69,
+            "mental": 0.57,
+            "flair": 0.6,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "fullname": "Harry Maguire",
+      "name": "Maguire",
+      "picture": "maguire",
+      "position": "Defans",
+      "country": "England",
+      "team": "Manchester United",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.78,
+            "physical": 0.84,
+            "speed": 0.5,
+            "vision": 0.66,
+            "attacking": 0.48,
+            "technical": 0.75,
+            "heading": 0.87,
+            "mental": 0.72,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "fullname": "Zlatan Ibrahimović",
+      "name": "Ibrahimović",
+      "picture": "ibrahimovic",
+      "position": "Forvet",
+      "country": "Sweden",
+      "team": "Milan",
+      "age": 1981,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.2,
+            "physical": 0.78,
+            "speed": 0.46,
+            "vision": 0.79,
+            "attacking": 0.86,
+            "technical": 0.8,
+            "heading": 0.83,
+            "mental": 0.76,
+            "flair": 0.7,
+            "special": -0.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "fullname": "Franck Yannick Kessié",
+      "name": "Kessié",
+      "picture": "kessie",
+      "position": "Orta Saha",
+      "country": "Ivory",
+      "team": "Milan",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.8,
+            "physical": 0.88,
+            "speed": 0.72,
+            "vision": 0.55,
+            "attacking": 0.44,
+            "technical": 0.7,
+            "heading": 0.68,
+            "mental": 0.72,
+            "flair": 0.2,
+            "special": -0.7
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "fullname": "Gianluigi Donnarumma",
+      "name": "Donnarumma",
+      "picture": "donnarumma",
+      "position": "Kaleci",
+      "country": "Italy",
+      "team": "Milan",
+      "age": 1999,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.89,
+            "physical": 0.86,
+            "speed": 0.54,
+            "vision": 0.24,
+            "attacking": 0.64,
+            "technical": 0.35,
+            "heading": 0.8,
+            "mental": 0.62,
+            "flair": 0.1,
+            "special": -1
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "fullname": "Lucas Torreira",
+      "name": "Torreira",
+      "picture": "torreira",
+      "position": "Orta Saha",
+      "country": "Uruguay",
+      "team": "Arsenal",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.75,
+            "speed": 0.75,
+            "vision": 0.74,
+            "attacking": 0.61,
+            "technical": 0.81,
+            "heading": 0.39,
+            "mental": 0.72,
+            "flair": 0.2,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "fullname": "Diego Maradona",
+      "name": "Maradona",
+      "picture": "maradona",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "",
+      "age": 1960,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.3,
+            "physical": 0.76,
+            "speed": 0.93,
+            "vision": 0.9,
+            "attacking": 0.89,
+            "technical": 0.94,
+            "heading": 0.27,
+            "mental": 0.67,
+            "flair": 0.95,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "fullname": "Edson Arantes Nascimento",
+      "name": "Pelé",
+      "picture": "pele",
+      "position": "Forvet",
+      "country": "Brazil",
+      "team": "",
+      "age": 1940,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.22,
+            "physical": 0.73,
+            "speed": 0.94,
+            "vision": 0.91,
+            "attacking": 0.91,
+            "technical": 0.93,
+            "heading": 0.63,
+            "mental": 0.5,
+            "flair": 0.85,
+            "special": 0.2
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "fullname": "Johan Cruyff",
+      "name": "Cruyff",
+      "picture": "cruyff",
+      "position": "Forvet",
+      "country": "Holland",
+      "team": "",
+      "age": 1947,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.34,
+            "physical": 0.7,
+            "speed": 0.8,
+            "vision": 0.88,
+            "attacking": 0.89,
+            "technical": 0.94,
+            "heading": 0.48,
+            "mental": 0.83,
+            "flair": 0.75,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "fullname": "Thierry Henry",
+      "name": "Henry",
+      "picture": "henry",
+      "position": "Forvet",
+      "country": "France",
+      "team": "",
+      "age": 1977,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.35,
+            "physical": 0.68,
+            "speed": 0.93,
+            "vision": 0.79,
+            "attacking": 0.89,
+            "technical": 0.86,
+            "heading": 0.74,
+            "mental": 0.87,
+            "flair": 0.8,
+            "special": -0.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "fullname": "Ruud van Nistelrooy",
+      "name": "van Nistelrooy",
+      "picture": "vannistelrooy",
+      "position": "Forvet",
+      "country": "Holland",
+      "team": "",
+      "age": 1976,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.23,
+            "physical": 0.75,
+            "speed": 0.76,
+            "vision": 0.75,
+            "attacking": 0.9,
+            "technical": 0.83,
+            "heading": 0.85,
+            "mental": 0.87,
+            "flair": 0.5,
+            "special": 0.7
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "fullname": "Rivaldo Vítor Borba Ferreira",
+      "name": "Rivaldo",
+      "picture": "rivaldo",
+      "position": "Forvet",
+      "country": "Brazil",
+      "team": "",
+      "age": 1972,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.36,
+            "physical": 0.76,
+            "speed": 0.75,
+            "vision": 0.84,
+            "attacking": 0.85,
+            "technical": 0.9,
+            "heading": 0.75,
+            "mental": 0.83,
+            "flair": 0.7,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "fullname": "Alessandro Del Piero",
+      "name": "Del Piero",
+      "picture": "delpiero",
+      "position": "Forvet",
+      "country": "Italy",
+      "team": "",
+      "age": 1974,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.7,
+            "speed": 0.81,
+            "vision": 0.88,
+            "attacking": 0.9,
+            "technical": 0.89,
+            "heading": 0.65,
+            "mental": 0.94,
+            "flair": 0.55,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "fullname": "Luís Filipe Madeira Caeiro Figo",
+      "name": "Luís Figo",
+      "picture": "figo",
+      "position": "Forvet",
+      "country": "Portugal",
+      "team": "",
+      "age": 1972,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.77,
+            "speed": 0.75,
+            "vision": 0.88,
+            "attacking": 0.85,
+            "technical": 0.88,
+            "heading": 0.64,
+            "mental": 0.91,
+            "flair": 0.65,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "fullname": "Raúl González Blanco",
+      "name": "Raúl",
+      "picture": "raul",
+      "position": "Forvet",
+      "country": "Spain",
+      "team": "",
+      "age": 1977,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.71,
+            "speed": 0.77,
+            "vision": 0.93,
+            "attacking": 0.87,
+            "technical": 0.88,
+            "heading": 0.88,
+            "mental": 0.86,
+            "flair": 0.6,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "fullname": "Ryan Giggs",
+      "name": "Giggs",
+      "picture": "giggs",
+      "position": "Orta Saha",
+      "country": "Wales",
+      "team": "",
+      "age": 1973,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.6,
+            "speed": 0.81,
+            "vision": 0.89,
+            "attacking": 0.81,
+            "technical": 0.88,
+            "heading": 0.53,
+            "mental": 0.88,
+            "flair": 0.45,
+            "special": 2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "fullname": "Andrea Pirlo",
+      "name": "Pirlo",
+      "picture": "pirlo",
+      "position": "Orta Saha",
+      "country": "Italy",
+      "team": "",
+      "age": 1979,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.71,
+            "physical": 0.65,
+            "speed": 0.65,
+            "vision": 0.96,
+            "attacking": 0.77,
+            "technical": 0.94,
+            "heading": 0.49,
+            "mental": 0.93,
+            "flair": 0.35,
+            "special": 2.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "fullname": "Steven Gerrard",
+      "name": "Gerrard",
+      "picture": "gerrard",
+      "position": "Orta Saha",
+      "country": "England",
+      "team": "",
+      "age": 1980,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.79,
+            "physical": 0.81,
+            "speed": 0.7,
+            "vision": 0.84,
+            "attacking": 0.81,
+            "technical": 0.88,
+            "heading": 0.75,
+            "mental": 0.92,
+            "flair": 0.35,
+            "special": 2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "fullname": "Patrick Vieira",
+      "name": "Vieira",
+      "picture": "vieira",
+      "position": "Orta Saha",
+      "country": "France",
+      "team": "",
+      "age": 1976,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.89,
+            "physical": 0.89,
+            "speed": 0.81,
+            "vision": 0.76,
+            "attacking": 0.73,
+            "technical": 0.82,
+            "heading": 0.79,
+            "mental": 0.87,
+            "flair": 0.2,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "fullname": "Andriy Shevchenko",
+      "name": "Shevchenko",
+      "picture": "shevchenko",
+      "position": "Forvet",
+      "country": "Ukraine",
+      "team": "",
+      "age": 1976,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.28,
+            "physical": 0.71,
+            "speed": 0.88,
+            "vision": 0.7,
+            "attacking": 0.91,
+            "technical": 0.85,
+            "heading": 0.8,
+            "mental": 0.85,
+            "flair": 0.75,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "fullname": "Paul Scholes",
+      "name": "Scholes",
+      "picture": "scholes",
+      "position": "Orta Saha",
+      "country": "England",
+      "team": "",
+      "age": 1974,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.66,
+            "physical": 0.76,
+            "speed": 0.68,
+            "vision": 0.93,
+            "attacking": 0.79,
+            "technical": 0.89,
+            "heading": 0.56,
+            "mental": 0.89,
+            "flair": 0.35,
+            "special": 2.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "fullname": "Clarence Seedorf",
+      "name": "Seedorf",
+      "picture": "seedorf",
+      "position": "Orta Saha",
+      "country": "Holland",
+      "team": "",
+      "age": 1976,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.9,
+            "physical": 0.9,
+            "speed": 0.83,
+            "vision": 0.74,
+            "attacking": 0.54,
+            "technical": 0.71,
+            "heading": 0.65,
+            "mental": 0.8,
+            "flair": 0.2,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "fullname": "Roberto Carlos",
+      "name": "R. Carlos",
+      "picture": "rcarlos",
+      "position": "Defans",
+      "country": "Brazil",
+      "team": "",
+      "age": 1973,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.78,
+            "physical": 0.78,
+            "speed": 0.92,
+            "vision": 0.82,
+            "attacking": 0.85,
+            "technical": 0.84,
+            "heading": 0.31,
+            "mental": 0.91,
+            "flair": 0.3,
+            "special": 2
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "fullname": "Ricardo Izecson dos Santos Leite",
+      "name": "Kaká",
+      "picture": "kaka",
+      "position": "Orta Saha",
+      "country": "Brazil",
+      "team": "",
+      "age": 1982,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.67,
+            "speed": 0.93,
+            "vision": 0.92,
+            "attacking": 0.84,
+            "technical": 0.94,
+            "heading": 0.54,
+            "mental": 0.81,
+            "flair": 0.8,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "fullname": "Didier Drogba",
+      "name": "Drogba",
+      "picture": "drogba",
+      "position": "Forvet",
+      "country": "Ivory",
+      "team": "",
+      "age": 1978,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.44,
+            "physical": 0.94,
+            "speed": 0.88,
+            "vision": 0.76,
+            "attacking": 0.89,
+            "technical": 0.85,
+            "heading": 0.92,
+            "mental": 0.84,
+            "flair": 0.2,
+            "special": 1.5
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "fullname": "Filippo Inzaghi",
+      "name": "Inzaghi",
+      "picture": "inzaghi",
+      "position": "Forvet",
+      "country": "Italy",
+      "team": "",
+      "age": 1973,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.23,
+            "physical": 0.62,
+            "speed": 0.74,
+            "vision": 0.68,
+            "attacking": 0.94,
+            "technical": 0.9,
+            "heading": 0.91,
+            "mental": 0.93,
+            "flair": 0.25,
+            "special": 2
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "fullname": "Rio Ferdinand",
+      "name": "Ferdinand",
+      "picture": "ferdinand",
+      "position": "Defans",
+      "country": "England",
+      "team": "",
+      "age": 1978,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.91,
+            "physical": 0.86,
+            "speed": 0.86,
+            "vision": 0.57,
+            "attacking": 0.45,
+            "technical": 0.76,
+            "heading": 0.86,
+            "mental": 0.83,
+            "flair": 0.1,
+            "special": -1
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "fullname": "Michaël Essien",
+      "name": "Essien",
+      "picture": "essien",
+      "position": "Orta Saha",
+      "country": "Ghana",
+      "team": "",
+      "age": 1982,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.87,
+            "physical": 0.87,
+            "speed": 0.83,
+            "vision": 0.73,
+            "attacking": 0.65,
+            "technical": 0.84,
+            "heading": 0.68,
+            "mental": 0.86,
+            "flair": 0.35,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "fullname": "Gennaro Gattuso",
+      "name": "Gattuso",
+      "picture": "gattuso",
+      "position": "Orta Saha",
+      "country": "Italy",
+      "team": "",
+      "age": 1978,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.94,
+            "physical": 0.88,
+            "speed": 0.73,
+            "vision": 0.8,
+            "attacking": 0.61,
+            "technical": 0.77,
+            "heading": 0.64,
+            "mental": 0.83,
+            "flair": 0.25,
             "special": 0
           },
           "meta": { "color": "#2196f3" }

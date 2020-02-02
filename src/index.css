@@ -56,18 +56,37 @@ body {
   grid-area: info;
 }
 
-.info dt {
-  font-weight: bold;
-  display: inline-block;
-  padding-bottom: 8px;
-  padding-top: 8px;
-  width: 60%;
+.info > p {
+  line-height: 1.7;
+  margin-bottom: 24px;
+  width: 90%;
 }
 
-.info dd {
+.info .icons {
+  align-items: center;
+  display: inline-flex;
+}
+
+.info .icons .fa,
+.info .icons strong {
+  align-items: center;
+  display: inline-flex;
+  font-size: 24px;
+  height: 40px;
+  justify-content: flex-end;
+  margin-right: 16px;
+  width: 56px;
+}
+
+.info .icons p {
+  font-size: 14px;
   display: inline-block;
-  margin-left: 0;
-  width: 30%;
+  white-space: nowrap;
+}
+
+.info mark {
+  background-color: #f3c42b;
+  padding: 3px 1px;
 }
 
 .profile {

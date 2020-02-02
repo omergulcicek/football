@@ -1,8 +1,4 @@
 import React, {Component} from "react";
-import {
-  Link
-} from "react-router-dom";
-
 
 import Card from "./Card";
 import Graph from "./Graph";
@@ -77,15 +73,19 @@ export default class Profile extends Component {
               }
             ],
           });
+
+          document.title = `${r.name} (${new Date().getFullYear() - r.age})`;
+    
         },
         error => {
           console.log(error);
         }
       );
+
   }
   
   render() {
-    const {id, name, picture, age, position, country, team, legend, skills} = this.state;
+    const {id, name, fullname, picture, age, position, country, team, legend, skills} = this.state;
 
     return (
       <div className="profile">
@@ -102,10 +102,13 @@ export default class Profile extends Component {
         <Graph skills={skills} />
 
         <Info
+          fullname={fullname}
           age={new Date().getFullYear() - age}
           position={position}
           country={country}
           team={team}
+          skills={skills}
+          legend={legend}
         />
 
         <a href={id+1}>

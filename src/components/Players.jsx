@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+
 export default class Players extends Component {
   constructor(props) {
     super(props);
@@ -13,6 +14,11 @@ export default class Players extends Component {
       .then(res => res.json())
       .then(
         r => {
+
+          //let n = r.filter(x => x.team == "Barcelona");
+          //let n = r.filter(x => x.legend);
+          //let n = r.filter(x => x.position == "Orta Saha");
+
           this.setState({
             players: r
           });
@@ -21,6 +27,44 @@ export default class Players extends Component {
           console.log(error);
         }
       );
+      
+      document.title = "Mini Futbol | Tüm Oyuncular";
+  }
+
+  value(power, year) {
+    var age = new Date().getFullYear() - year;
+
+    let totalValue = 0;
+
+    if(17 <= age && age <22) {
+      totalValue = power * 1.5;
+    }
+    if(22 <= age && age <25) {
+      totalValue = power * 1.3;
+    }
+    if(25 <= age && age <27) {
+      totalValue = power * 1.1;
+    }
+    else if(27 <= age && age <30) {
+      totalValue = power * 1.2;
+    }
+    else if(30 <= age && age <34) {
+      totalValue = power / 1.3;
+    }
+    else if(34 <= age && age <36) {
+      totalValue = power / 2
+    }
+    else if(36 <= age && age <38) {
+      totalValue = power / 5.5;
+    }
+    else if(38 <= age && age <41) {
+      totalValue = power / 7.5;
+    }
+    else if(41 <= age) {
+      totalValue = power / 20;
+    }
+    
+    return Math.ceil(totalValue);
   }
 
   power(e) {
@@ -56,6 +100,7 @@ export default class Players extends Component {
       + (el.flair * 1)
       + (el.special * 25))/7)
     }
+
     return totalPower;
   }
 
@@ -70,13 +115,15 @@ export default class Players extends Component {
       
       <img src="https://omergulcicek.com/img/player/${e.picture}.png" height="80" />
       
-      <span style="display: inline-block; width: 120px">${e.name}</span>
+      <span style="display: inline-block; width: 120px">${e.name} (${new Date().getFullYear() - e.age})</span>
 
       <img src="https://omergulcicek.com/img/country/${e.country.toLowerCase()}.png" height="40"/>
 
       <img src="https://omergulcicek.com/img/team/${e.team || "Legend"}.png" height="80"/>
 
       <h1>${this.power(e.skills)}</h1>
+
+      <h2>€${this.value(this.power(e.skills), e.age)}M</h2>
     </a>`);
 
     return (

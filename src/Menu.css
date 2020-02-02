@@ -1,0 +1,9 @@
+nav.menu {
+  padding: 40px;
+}
+
+nav.menu a {
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+}

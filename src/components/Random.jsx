@@ -37,7 +37,7 @@ export default class Random extends Component {
   }
 
   componentDidMount() {
-    let randomNumber = Math.ceil(Math.random() * 85);
+    let randomNumber = Math.ceil(Math.random() * 154);
     
     fetch(`http://localhost:3000/players/${randomNumber}`)
       .then(res => res.json())
@@ -70,6 +70,9 @@ export default class Random extends Component {
               }
             ],
           });
+
+          
+        document.title = "Rastgele Oyuncu";
           
           setTimeout(function(){ window.location.href =  `profile/${r.id}` }, 10000)
         },

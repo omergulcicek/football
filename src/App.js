@@ -7,11 +7,14 @@ import {
 import Profile from "./components/Profile";
 import Random from "./components/Random";
 import Players from "./components/Players";
+import Menu from "./components/Menu";
 
 export default class App extends Component {
   render() {
     return (
       <Router>
+        <Menu />
+
         <Switch>
           <Route path="/profile/:id">
             <Profile />
@@ -21,8 +24,12 @@ export default class App extends Component {
             <Random />
           </Route>
 
-          <Route path="/">
+          <Route path="/players">
             <Players />
+          </Route>
+
+          <Route path="/">
+            Ana Sayfa
           </Route>
         </Switch>
       </Router>
