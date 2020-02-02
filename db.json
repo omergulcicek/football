@@ -309,6 +309,62 @@
       ]
     },
     {
+      "id": 80,
+      "fullname": "Jan Oblak",
+      "name": "Oblak",
+      "picture": "oblak",
+      "position": "Kaleci",
+      "country": "Slovenia",
+      "team": "Atletico Madrid",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.99,
+            "physical": 0.65,
+            "speed": 0.76,
+            "vision": 0.4,
+            "attacking": 0.75,
+            "technical": 0.62,
+            "heading": 0.92,
+            "mental": 0.76,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "fullname": "David de Gea",
+      "name": "de Gea",
+      "picture": "degea",
+      "position": "Kaleci",
+      "country": "Spain",
+      "team": "Manchester United",
+      "age": 1990,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.97,
+            "physical": 0.73,
+            "speed": 0.64,
+            "vision": 0.32,
+            "attacking": 0.77,
+            "technical": 0.7,
+            "heading": 0.96,
+            "mental": 0.76,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
       "id": 6,
       "fullname": "Giorgio Chiellini",
       "name": "Chiellini",
@@ -361,6 +417,34 @@
             "special": 0
           },
           "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "fullname": "Alisson Becker",
+      "name": "Alisson",
+      "picture": "alisson",
+      "position": "Kaleci",
+      "country": "Brazil",
+      "team": "Liverpool",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.95,
+            "physical": 0.82,
+            "speed": 0.65,
+            "vision": 0.67,
+            "attacking": 0.85,
+            "technical": 0.73,
+            "heading": 0.83,
+            "mental": 0.73,
+            "flair": 0.2,
+            "special": 0.4
+          },
+          "meta": { "color": "#ffca28" }
         }
       ]
     },
@@ -617,30 +701,30 @@
       ]
     },
     {
-      "id": 54,
-      "fullname": "Roberto Baggio",
-      "name": "Baggio",
-      "picture": "baggio",
-      "position": "Orta Saha",
-      "country": "Italy",
-      "team": "",
-      "age": 1967,
+      "id": 82,
+      "fullname": "Manuel Neuer",
+      "name": "Neuer",
+      "picture": "neuer",
+      "position": "Kaleci",
+      "country": "Germany",
+      "team": "Bayern Münih",
+      "age": 1986,
       "legend": false,
       "skills": [
         {
           "data": {
-            "defending": 0.4,
-            "physical": 0.61,
-            "speed": 0.82,
-            "vision": 0.93,
-            "attacking": 0.86,
-            "technical": 0.93,
-            "heading": 0.73,
-            "mental": 0.75,
-            "flair": 0.65,
-            "special": 0.1
+            "defending": 0.96,
+            "physical": 0.78,
+            "speed": 0.55,
+            "vision": 0.64,
+            "attacking": 0.9,
+            "technical": 0.78,
+            "heading": 0.76,
+            "mental": 0.82,
+            "flair": 0.3,
+            "special": 0
           },
-          "meta": { "color": "#2196f3" }
+          "meta": { "color": "#ffca28" }
         }
       ]
     },
@@ -667,6 +751,34 @@
             "mental": 0.81,
             "flair": 0.75,
             "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "fullname": "Roberto Baggio",
+      "name": "Baggio",
+      "picture": "baggio",
+      "position": "Orta Saha",
+      "country": "Italy",
+      "team": "",
+      "age": 1967,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.61,
+            "speed": 0.82,
+            "vision": 0.93,
+            "attacking": 0.86,
+            "technical": 0.93,
+            "heading": 0.73,
+            "mental": 0.75,
+            "flair": 0.65,
+            "special": 0.1
           },
           "meta": { "color": "#2196f3" }
         }
@@ -897,6 +1009,34 @@
       ]
     },
     {
+      "id": 83,
+      "fullname": "Marc-André ter Stegen",
+      "name": "ter Stegen",
+      "picture": "terstegen",
+      "position": "Kaleci",
+      "country": "Germany",
+      "team": "Barcelona",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.91,
+            "physical": 0.72,
+            "speed": 0.65,
+            "vision": 0.45,
+            "attacking": 0.9,
+            "technical": 0.76,
+            "heading": 0.77,
+            "mental": 0.72,
+            "flair": 0.2,
+            "special": 0.7
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
       "id": 24,
       "fullname": "N'Golo Kanté",
       "name": "Kanté",
@@ -1005,6 +1145,34 @@
             "special": -1.2
           },
           "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "fullname": "Thibaut Courtois",
+      "name": "Courtois",
+      "picture": "courtois",
+      "position": "Kaleci",
+      "country": "Belgium",
+      "team": "Real Madrid",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.91,
+            "physical": 0.66,
+            "speed": 0.65,
+            "vision": 0.52,
+            "attacking": 0.78,
+            "technical": 0.65,
+            "heading": 0.82,
+            "mental": 0.77,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#ffca28" }
         }
       ]
     },
@@ -1233,6 +1401,34 @@
       ]
     },
     {
+      "id": 56,
+      "fullname": "João Félix",
+      "name": "Félix",
+      "picture": "felix",
+      "position": "Orta Saha",
+      "country": "Portugal",
+      "team": "Atletico Madrid",
+      "age": 1999,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.38,
+            "physical": 0.7,
+            "speed": 0.82,
+            "vision": 0.82,
+            "attacking": 0.81,
+            "technical": 0.84,
+            "heading": 0.43,
+            "mental": 0.72,
+            "flair": 0.7,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
       "id": 36,
       "fullname": "Leonardo Bonucci",
       "name": "Bonucci",
@@ -1283,6 +1479,90 @@
             "mental": 0.72,
             "flair": 0.55,
             "special": 1.9
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "fullname": "Çağlar Söyüncü",
+      "name": "Çağlar",
+      "picture": "caglar",
+      "position": "Defans",
+      "country": "Turkey",
+      "team": "Leicester City",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.81,
+            "speed": 0.71,
+            "vision": 0.49,
+            "attacking": 0.37,
+            "technical": 0.62,
+            "heading": 0.76,
+            "mental": 0.72,
+            "flair": 0.2,
+            "special": -0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "fullname": "Gianluigi Buffon",
+      "name": "Buffon",
+      "picture": "buffon",
+      "position": "Kaleci",
+      "country": "Italy",
+      "team": "Juventus",
+      "age": 1978,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.94,
+            "physical": 0.72,
+            "speed": 0.42,
+            "vision": 0.34,
+            "attacking": 0.52,
+            "technical": 0.44,
+            "heading": 0.88,
+            "mental": 0.92,
+            "flair": 0.1,
+            "special": -0.8
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "fullname": "Cengiz Ünder",
+      "name": "Cengiz",
+      "picture": "cengiz",
+      "position": "Forvet",
+      "country": "Turkey",
+      "team": "Roma",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.29,
+            "physical": 0.67,
+            "speed": 0.82,
+            "vision": 0.73,
+            "attacking": 0.78,
+            "technical": 0.82,
+            "heading": 0.51,
+            "mental": 0.67,
+            "flair": 0.75,
+            "special": 0.2
           },
           "meta": { "color": "#2196f3" }
         }
@@ -1367,6 +1647,62 @@
             "mental": 0.62,
             "flair": 0.85,
             "special": -1.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "fullname": "Merih Demiral",
+      "name": "Merih",
+      "picture": "merih",
+      "position": "Defans",
+      "country": "Turkey",
+      "team": "Juventus",
+      "age": 1998,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.88,
+            "physical": 0.78,
+            "speed": 0.76,
+            "vision": 0.42,
+            "attacking": 0.31,
+            "technical": 0.48,
+            "heading": 0.75,
+            "mental": 0.7,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "fullname": "Ozan Kabak",
+      "name": "Ozan",
+      "picture": "ozan",
+      "position": "Defans",
+      "country": "Turkey",
+      "team": "Stuttgart",
+      "age": 2000,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.79,
+            "physical": 0.84,
+            "speed": 0.69,
+            "vision": 0.58,
+            "attacking": 0.3,
+            "technical": 0.7,
+            "heading": 0.73,
+            "mental": 0.75,
+            "flair": 0.25,
+            "special": 0
           },
           "meta": { "color": "#2196f3" }
         }
@@ -1485,6 +1821,62 @@
       ]
     },
     {
+      "id": 58,
+      "fullname": "Sergej Milinković-Savić",
+      "name": "Sergej",
+      "picture": "sergej",
+      "position": "Orta Saha",
+      "country": "Serbia",
+      "team": "Lazio",
+      "age": 1995,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.78,
+            "physical": 0.84,
+            "speed": 0.67,
+            "vision": 0.85,
+            "attacking": 0.8,
+            "technical": 0.87,
+            "heading": 0.86,
+            "mental": 0.75,
+            "flair": 0.35,
+            "special": 0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "fullname": "Yusuf Yazıcı",
+      "name": "Yusuf",
+      "picture": "yusuf",
+      "position": "Orta Saha",
+      "country": "Turkey",
+      "team": "Lille",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.74,
+            "speed": 0.75,
+            "vision": 0.79,
+            "attacking": 0.71,
+            "technical": 0.8,
+            "heading": 0.64,
+            "mental": 0.76,
+            "flair": 0.65,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
       "id": 45,
       "fullname": "Jordi Alba",
       "name": "Alba",
@@ -1506,6 +1898,482 @@
             "heading": 0.25,
             "mental": 0.75,
             "flair": 0.65,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "fullname": "Emre Belözoğlu",
+      "name": "Emre",
+      "picture": "emre",
+      "position": "Orta Saha",
+      "country": "Turkey",
+      "team": "Fenerbahçe",
+      "age": 1980,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.65,
+            "physical": 0.67,
+            "speed": 0.44,
+            "vision": 0.85,
+            "attacking": 0.68,
+            "technical": 0.84,
+            "heading": 0.4,
+            "mental": 0.91,
+            "flair": 0.45,
+            "special": 1.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "fullname": "Adama Traoré Diarra",
+      "name": "Adama Traoré",
+      "picture": "traore",
+      "position": "Forvet",
+      "country": "Spain",
+      "team": "Wolverhampton",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.37,
+            "physical": 0.88,
+            "speed": 0.97,
+            "vision": 0.63,
+            "attacking": 0.68,
+            "technical": 0.81,
+            "heading": 0.41,
+            "mental": 0.6,
+            "flair": 0.65,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "fullname": "Uğurcan Çakır",
+      "name": "Uğurcan Çakır",
+      "picture": "ugurcan",
+      "position": "Kaleci",
+      "country": "Turkey",
+      "team": "Trabzonspor",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.62,
+            "speed": 0.63,
+            "vision": 0.45,
+            "attacking": 0.61,
+            "technical": 0.52,
+            "heading": 0.81,
+            "mental": 0.73,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "fullname": "Erling Braut Håland",
+      "name": "Håland",
+      "picture": "haland",
+      "position": "Forvet",
+      "country": "Norway",
+      "team": "Dortmund",
+      "age": 2000,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.43,
+            "physical": 0.84,
+            "speed": 0.86,
+            "vision": 0.74,
+            "attacking": 0.85,
+            "technical": 0.56,
+            "heading": 0.76,
+            "mental": 0.55,
+            "flair": 0.6,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "fullname": "Fernando Muslera",
+      "name": "Muslera",
+      "picture": "muslera",
+      "position": "Kaleci",
+      "country": "Uruguay",
+      "team": "Galatasaray",
+      "age": 1986,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.81,
+            "physical": 0.65,
+            "speed": 0.55,
+            "vision": 0.5,
+            "attacking": 0.75,
+            "technical": 0.67,
+            "heading": 0.7,
+            "mental": 0.7,
+            "flair": 0.1,
+            "special": 0.9
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "fullname": "Atiba Hutchinson",
+      "name": "Hutchinson",
+      "picture": "atiba",
+      "position": "Orta Saha",
+      "country": "Canada",
+      "team": "Beşiktaş",
+      "age": 1983,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.8,
+            "physical": 0.67,
+            "speed": 0.52,
+            "vision": 0.62,
+            "attacking": 0.51,
+            "technical": 0.82,
+            "heading": 0.68,
+            "mental": 0.89,
+            "flair": 0.2,
+            "special": -0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "fullname": "Adem Ljajić",
+      "name": "Ljajić",
+      "picture": "ljajic",
+      "position": "Orta Saha",
+      "country": "Serbia",
+      "team": "Beşiktaş",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.32,
+            "physical": 0.61,
+            "speed": 0.78,
+            "vision": 0.8,
+            "attacking": 0.7,
+            "technical": 0.86,
+            "heading": 0.48,
+            "mental": 0.7,
+            "flair": 0.7,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "fullname": "Domagoj Vida",
+      "name": "Vida",
+      "picture": "vida",
+      "position": "Defans",
+      "country": "Croatia",
+      "team": "Beşiktaş",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.81,
+            "physical": 0.79,
+            "speed": 0.75,
+            "vision": 0.5,
+            "attacking": 0.41,
+            "technical": 0.45,
+            "heading": 0.79,
+            "mental": 0.69,
+            "flair": 0.1,
+            "special": -0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "fullname": "Dorukhan Toköz",
+      "name": "Dorukhan",
+      "picture": "dorukhan",
+      "position": "Orta Saha",
+      "country": "Turkey",
+      "team": "Beşiktaş",
+      "age": 1996,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.72,
+            "physical": 0.72,
+            "speed": 0.76,
+            "vision": 0.6,
+            "attacking": 0.62,
+            "technical": 0.7,
+            "heading": 0.62,
+            "mental": 0.84,
+            "flair": 0.4,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "fullname": "Burak Yılmaz",
+      "name": "Burak Yılmaz",
+      "picture": "burak",
+      "position": "Forvet",
+      "country": "Turkey",
+      "team": "Beşiktaş",
+      "age": 1985,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.33,
+            "physical": 0.77,
+            "speed": 0.8,
+            "vision": 0.64,
+            "attacking": 0.88,
+            "technical": 0.69,
+            "heading": 0.72,
+            "mental": 0.65,
+            "flair": 0.4,
+            "special": 1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "fullname": "Ricardo Quaresma",
+      "name": "Quaresma",
+      "picture": "quaresma",
+      "position": "Orta Saha",
+      "country": "Portugal",
+      "team": "Kasımpaşa",
+      "age": 1983,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.24,
+            "physical": 0.62,
+            "speed": 0.73,
+            "vision": 0.84,
+            "attacking": 0.67,
+            "technical": 0.88,
+            "heading": 0.29,
+            "mental": 0.45,
+            "flair": 0.95,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "fullname": "Radamel Falcao",
+      "name": "Falcao",
+      "picture": "falcao",
+      "position": "Forvet",
+      "country": "Colombia",
+      "team": "Galatasaray",
+      "age": 1986,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.41,
+            "physical": 0.61,
+            "speed": 0.55,
+            "vision": 0.7,
+            "attacking": 0.86,
+            "technical": 0.71,
+            "heading": 0.89,
+            "mental": 0.65,
+            "flair": 0.35,
+            "special": 1.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "fullname": "Abdülkadir Ömür",
+      "name": "Abdülkadir",
+      "picture": "abdulkadir",
+      "position": "Orta Saha",
+      "country": "Turkey",
+      "team": "Trabzonspor",
+      "age": 1999,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.37,
+            "physical": 0.55,
+            "speed": 0.81,
+            "vision": 0.73,
+            "attacking": 0.64,
+            "technical": 0.82,
+            "heading": 0.26,
+            "mental": 0.55,
+            "flair": 0.75,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "fullname": "José Sosa",
+      "name": "Sosa",
+      "picture": "sosa",
+      "position": "Orta Saha",
+      "country": "Argentina",
+      "team": "Trabzonspor",
+      "age": 1985,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.5,
+            "physical": 0.65,
+            "speed": 0.69,
+            "vision": 0.81,
+            "attacking": 0.6,
+            "technical": 0.82,
+            "heading": 0.5,
+            "mental": 0.7,
+            "flair": 0.5,
+            "special": 0.7
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "fullname": "Vedat Muriqi",
+      "name": "Vedat Muriqi",
+      "picture": "muriqi",
+      "position": "Forvet",
+      "country": "Kosovo",
+      "team": "Fenerbahçe",
+      "age": 1994,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.18,
+            "physical": 0.77,
+            "speed": 0.6,
+            "vision": 0.63,
+            "attacking": 0.77,
+            "technical": 0.75,
+            "heading": 0.76,
+            "mental": 0.62,
+            "flair": 0.35,
+            "special": 1.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "fullname": "Emre Akbaba",
+      "name": "Emre Akbaba",
+      "picture": "emreakbaba",
+      "position": "Orta Saha",
+      "country": "Turkey",
+      "team": "Galatasaray",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.34,
+            "physical": 0.67,
+            "speed": 0.75,
+            "vision": 0.78,
+            "attacking": 0.7,
+            "technical": 0.77,
+            "heading": 0.62,
+            "mental": 0.6,
+            "flair": 0.6,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "fullname": "Emre Mor",
+      "name": "Emre Mor",
+      "picture": "mor",
+      "position": "Forvet",
+      "country": "Turkey",
+      "team": "Galatasaray",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.28,
+            "physical": 0.46,
+            "speed": 0.81,
+            "vision": 0.63,
+            "attacking": 0.68,
+            "technical": 0.77,
+            "heading": 0.29,
+            "mental": 0.45,
+            "flair": 0.9,
             "special": 0
           },
           "meta": { "color": "#2196f3" }

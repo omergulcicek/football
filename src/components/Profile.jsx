@@ -83,12 +83,7 @@ export default class Profile extends Component {
         }
       );
   }
-
-  /**
-   * Backend istek atılacak, tüm veriler çekilecek
-   * Oyuncu güçleri ve yaşına göre piyasa değeri burada hesaplanacak
-   */
-
+  
   render() {
     const {id, name, picture, age, position, country, team, legend, skills} = this.state;
 
