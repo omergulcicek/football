@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Profile from "./components/Profile";
+import Random from "./components/Random";
+import Players from "./components/Players";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route path="/profile/:id">
+            <Profile />
+          </Route>
+
+          <Route path="/random">
+            <Random />
+          </Route>
+
+          <Route path="/">
+            <Players />
+          </Route>
+        </Switch>
+      </Router>
+    );
+  }
 }
-
-export default App;

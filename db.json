@@ -1,0 +1,1516 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "fullname": "Lionel Messi",
+      "name": "Messi",
+      "picture": "messi",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "Barcelona",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.25,
+            "physical": 0.66,
+            "speed": 0.84,
+            "vision": 0.96,
+            "attacking": 0.97,
+            "technical": 0.98,
+            "heading": 0.35,
+            "mental": 0.75,
+            "flair": 1,
+            "special": 0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullname": "Cristiano Ronaldo",
+      "name": "C. Ronaldo",
+      "picture": "cronaldo",
+      "position": "Forvet",
+      "country": "Portugal",
+      "team": "Juventus",
+      "age": 1985,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.25,
+            "physical": 0.78,
+            "speed": 0.9,
+            "vision": 0.78,
+            "attacking": 0.94,
+            "technical": 0.82,
+            "heading": 0.89,
+            "mental": 0.82,
+            "flair": 0.9,
+            "special": 0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "fullname": "Ronaldinho",
+      "name": "Ronaldinho",
+      "picture": "ronaldinho",
+      "position": "Orta Saha",
+      "country": "Brazil",
+      "team": "",
+      "age": 1980,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.26,
+            "physical": 0.81,
+            "speed": 0.92,
+            "vision": 0.93,
+            "attacking": 0.93,
+            "technical": 0.95,
+            "heading": 0.54,
+            "mental": 0.81,
+            "flair": 1,
+            "special": -1.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "fullname": "Andrés Iniesta",
+      "name": "Iniesta",
+      "picture": "iniesta",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "",
+      "age": 1984,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.41,
+            "physical": 0.74,
+            "speed": 0.79,
+            "vision": 0.99,
+            "attacking": 0.77,
+            "technical": 0.99,
+            "heading": 0.42,
+            "mental": 0.89,
+            "flair": 0.9,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "fullname": "Zinedine Zidane",
+      "name": "Zidane",
+      "picture": "zidane",
+      "position": "Orta Saha",
+      "country": "France",
+      "team": "",
+      "age": 1972,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.59,
+            "physical": 0.81,
+            "speed": 0.82,
+            "vision": 0.92,
+            "attacking": 0.84,
+            "technical": 0.94,
+            "heading": 0.81,
+            "mental": 0.83,
+            "flair": 0.85,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "fullname": "Paolo Maldini",
+      "name": "Maldini",
+      "picture": "maldini",
+      "position": "Defans",
+      "country": "Italy",
+      "team": "",
+      "age": 1968,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.96,
+            "physical": 0.81,
+            "speed": 0.82,
+            "vision": 0.69,
+            "attacking": 0.57,
+            "technical": 0.73,
+            "heading": 0.92,
+            "mental": 0.86,
+            "flair": 0.35,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "fullname": "Ronaldo Lima",
+      "name": "Ronaldo",
+      "picture": "ronaldo",
+      "position": "Forvet",
+      "country": "Brazil",
+      "team": "",
+      "age": 1976,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.36,
+            "physical": 0.72,
+            "speed": 0.94,
+            "vision": 0.77,
+            "attacking": 0.98,
+            "technical": 0.91,
+            "heading": 0.78,
+            "mental": 0.79,
+            "flair": 0.85,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullname": "Neymar Jr.",
+      "name": "Neymar",
+      "picture": "neymar",
+      "position": "Forvet",
+      "country": "Brazil",
+      "team": "PSG",
+      "age": 1985,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.15,
+            "physical": 0.58,
+            "speed": 0.91,
+            "vision": 0.9,
+            "attacking": 0.91,
+            "technical": 0.95,
+            "heading": 0.34,
+            "mental": 0.65,
+            "flair": 0.95,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullname": "Virgil van Dijk",
+      "name": "van Dijk",
+      "picture": "vandijk",
+      "position": "Defans",
+      "country": "Holland",
+      "team": "Liverpool",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.92,
+            "physical": 0.86,
+            "speed": 0.77,
+            "vision": 0.65,
+            "attacking": 0.52,
+            "technical": 0.76,
+            "heading": 0.86,
+            "mental": 0.74,
+            "flair": 0.55,
+            "special": 0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullname": "Sergio Ramos",
+      "name": "Sergio Ramos",
+      "picture": "ramos",
+      "position": "Defans",
+      "country": "Spain",
+      "team": "Real Madrid",
+      "age": 1986,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.88,
+            "physical": 0.85,
+            "speed": 0.72,
+            "vision": 0.71,
+            "attacking": 0.63,
+            "technical": 0.83,
+            "heading": 0.92,
+            "mental": 0.75,
+            "flair": 0.75,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "fullname": "Fabio Cannavaro",
+      "name": "Cannavaro",
+      "picture": "cannavaro",
+      "position": "Defans",
+      "country": "Italy",
+      "team": "",
+      "age": 1973,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.96,
+            "physical": 0.82,
+            "speed": 0.76,
+            "vision": 0.52,
+            "attacking": 0.35,
+            "technical": 0.68,
+            "heading": 0.88,
+            "mental": 0.8,
+            "flair": 0.3,
+            "special": -0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullname": "Giorgio Chiellini",
+      "name": "Chiellini",
+      "picture": "chiellini",
+      "position": "Defans",
+      "country": "Italy",
+      "team": "Juventus",
+      "age": 1984,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.94,
+            "physical": 0.82,
+            "speed": 0.53,
+            "vision": 0.5,
+            "attacking": 0.6,
+            "technical": 0.4,
+            "heading": 0.83,
+            "mental": 0.9,
+            "flair": 0.4,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullname": "Mohamed Salah",
+      "name": "Salah",
+      "picture": "salah",
+      "position": "Forvet",
+      "country": "Egypt",
+      "team": "Liverpool",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.35,
+            "physical": 0.74,
+            "speed": 0.93,
+            "vision": 0.84,
+            "attacking": 0.9,
+            "technical": 0.89,
+            "heading": 0.45,
+            "mental": 0.8,
+            "flair": 0.75,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "fullname": "Carles Puyol",
+      "name": "Puyol",
+      "picture": "puyol",
+      "position": "Defans",
+      "country": "Spain",
+      "team": "",
+      "age": 1978,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.94,
+            "physical": 0.91,
+            "speed": 0.72,
+            "vision": 0.55,
+            "attacking": 0.35,
+            "technical": 0.64,
+            "heading": 0.89,
+            "mental": 0.89,
+            "flair": 0.25,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "fullname": "Alessandro Nesta",
+      "name": "Nesta",
+      "picture": "nesta",
+      "position": "Defans",
+      "country": "Italy",
+      "team": "",
+      "age": 1976,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.9,
+            "physical": 0.85,
+            "speed": 0.71,
+            "vision": 0.52,
+            "attacking": 0.38,
+            "technical": 0.77,
+            "heading": 0.84,
+            "mental": 0.91,
+            "flair": 0.2,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullname": "Eden Hazard",
+      "name": "Hazard",
+      "picture": "hazard",
+      "position": "Forvet",
+      "country": "Belgium",
+      "team": "Real Madrid",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.21,
+            "physical": 0.81,
+            "speed": 0.91,
+            "vision": 0.89,
+            "attacking": 0.82,
+            "technical": 0.94,
+            "heading": 0.35,
+            "mental": 0.65,
+            "flair": 0.9,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullname": "Luis Suárez",
+      "name": "Suárez",
+      "picture": "suarez",
+      "position": "Forvet",
+      "country": "Uruguay",
+      "team": "Barcelona",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.41,
+            "physical": 0.71,
+            "speed": 0.7,
+            "vision": 0.78,
+            "attacking": 0.91,
+            "technical": 0.87,
+            "heading": 0.64,
+            "mental": 0.84,
+            "flair": 0.9,
+            "special": -0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullname": "Kylian Mbappé",
+      "name": "Mbappé",
+      "picture": "mbappe",
+      "position": "Forvet",
+      "country": "France",
+      "team": "PSG",
+      "age": 1998,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.21,
+            "physical": 0.75,
+            "speed": 0.96,
+            "vision": 0.8,
+            "attacking": 0.89,
+            "technical": 0.9,
+            "heading": 0.43,
+            "mental": 0.65,
+            "flair": 0.9,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullname": "Kevin De Bruyne",
+      "name": "De Bruyne",
+      "picture": "debruyne",
+      "position": "Orta Saha",
+      "country": "Belgium",
+      "team": "Manchester City",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.78,
+            "speed": 0.76,
+            "vision": 0.94,
+            "attacking": 0.82,
+            "technical": 0.91,
+            "heading": 0.55,
+            "mental": 0.75,
+            "flair": 0.8,
+            "special": 0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullname": "Kalidou Koulibaly",
+      "name": "Koulibaly",
+      "picture": "koulibaly",
+      "position": "Defans",
+      "country": "Senegal",
+      "team": "Napoli",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.91,
+            "physical": 0.92,
+            "speed": 0.75,
+            "vision": 0.52,
+            "attacking": 0.22,
+            "technical": 0.56,
+            "heading": 0.83,
+            "mental": 0.79,
+            "flair": 0.4,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullname": "Gerard Piqué",
+      "name": "Piqué",
+      "picture": "pique",
+      "position": "Defans",
+      "country": "Spain",
+      "team": "Barcelona",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.89,
+            "physical": 0.8,
+            "speed": 0.56,
+            "vision": 0.72,
+            "attacking": 0.65,
+            "technical": 0.82,
+            "heading": 0.85,
+            "mental": 0.82,
+            "flair": 0.55,
+            "special": 0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullname": "Marcelo",
+      "name": "Marcelo",
+      "picture": "marcelo",
+      "position": "Defans",
+      "country": "Brazil",
+      "team": "Real Madrid",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.55,
+            "physical": 0.79,
+            "speed": 0.81,
+            "vision": 0.84,
+            "attacking": 0.73,
+            "technical": 0.92,
+            "heading": 0.41,
+            "mental": 0.65,
+            "flair": 0.9,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "fullname": "Roberto Baggio",
+      "name": "Baggio",
+      "picture": "baggio",
+      "position": "Orta Saha",
+      "country": "Italy",
+      "team": "",
+      "age": 1967,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.61,
+            "speed": 0.82,
+            "vision": 0.93,
+            "attacking": 0.86,
+            "technical": 0.93,
+            "heading": 0.73,
+            "mental": 0.75,
+            "flair": 0.65,
+            "special": 0.1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullname": "Sergio Agüero",
+      "name": "Agüero",
+      "picture": "agüero",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "Manchester City",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.24,
+            "physical": 0.71,
+            "speed": 0.8,
+            "vision": 0.83,
+            "attacking": 0.93,
+            "technical": 0.89,
+            "heading": 0.46,
+            "mental": 0.81,
+            "flair": 0.75,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullname": "Diego Godín",
+      "name": "Godín",
+      "picture": "godin",
+      "position": "Defans",
+      "country": "Uruguay",
+      "team": "Inter",
+      "age": 1986,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.87,
+            "physical": 0.83,
+            "speed": 0.6,
+            "vision": 0.52,
+            "attacking": 0.42,
+            "technical": 0.74,
+            "heading": 0.88,
+            "mental": 0.84,
+            "flair": 0.3,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "fullname": "Robert Lewandowski",
+      "name": "Lewandowski",
+      "picture": "lewandowski",
+      "position": "Forvet",
+      "country": "Poland",
+      "team": "Bayern Münih",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.82,
+            "speed": 0.77,
+            "vision": 0.77,
+            "attacking": 0.88,
+            "technical": 0.8,
+            "heading": 0.68,
+            "mental": 0.81,
+            "flair": 0.65,
+            "special": 0.7
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "fullname": "Harry Kane",
+      "name": "Kane",
+      "picture": "kane",
+      "position": "Forvet",
+      "country": "England",
+      "team": "Tottenham",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.51,
+            "physical": 0.83,
+            "speed": 0.7,
+            "vision": 0.74,
+            "attacking": 0.94,
+            "technical": 0.84,
+            "heading": 0.78,
+            "mental": 0.84,
+            "flair": 0.6,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "fullname": "Sadio Mané",
+      "name": "Mané",
+      "picture": "mane",
+      "position": "Forvet",
+      "country": "Senegal",
+      "team": "Liverpool",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.45,
+            "physical": 0.8,
+            "speed": 0.88,
+            "vision": 0.83,
+            "attacking": 0.87,
+            "technical": 0.87,
+            "heading": 0.35,
+            "mental": 0.65,
+            "flair": 0.8,
+            "special": 0.4
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "fullname": "Raheem Sterling",
+      "name": "Sterling",
+      "picture": "sterling",
+      "position": "Forvet",
+      "country": "England",
+      "team": "Manchester City",
+      "age": 1994,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.3,
+            "physical": 0.76,
+            "speed": 0.93,
+            "vision": 0.79,
+            "attacking": 0.83,
+            "technical": 0.88,
+            "heading": 0.38,
+            "mental": 0.71,
+            "flair": 0.8,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "fullname": "Luka Modrić",
+      "name": "Modrić",
+      "picture": "modric",
+      "position": "Orta Saha",
+      "country": "Croatia",
+      "team": "Real Madrid",
+      "age": 1985,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.55,
+            "physical": 0.66,
+            "speed": 0.62,
+            "vision": 0.95,
+            "attacking": 0.76,
+            "technical": 0.93,
+            "heading": 0.35,
+            "mental": 0.84,
+            "flair": 0.65,
+            "special": 0.8
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "fullname": "Paul Pogba",
+      "name": "Pogba",
+      "picture": "pogba",
+      "position": "Orta Saha",
+      "country": "France",
+      "team": "Manchester United",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.64,
+            "physical": 0.86,
+            "speed": 0.74,
+            "vision": 0.88,
+            "attacking": 0.75,
+            "technical": 0.9,
+            "heading": 0.75,
+            "mental": 0.65,
+            "flair": 0.95,
+            "special": -1.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "fullname": "Frenkie de Jong",
+      "name": "de Jong",
+      "picture": "dejong",
+      "position": "Orta Saha",
+      "country": "Holland",
+      "team": "Barcelona",
+      "age": 1997,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.5,
+            "physical": 0.76,
+            "speed": 0.79,
+            "vision": 0.89,
+            "attacking": 0.64,
+            "technical": 0.9,
+            "heading": 0.45,
+            "mental": 0.82,
+            "flair": 0.75,
+            "special": 0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "fullname": "N'Golo Kanté",
+      "name": "Kanté",
+      "picture": "kante",
+      "position": "Orta Saha",
+      "country": "France",
+      "team": "Chelsea",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.92,
+            "physical": 0.86,
+            "speed": 0.83,
+            "vision": 0.67,
+            "attacking": 0.71,
+            "technical": 0.72,
+            "heading": 0.4,
+            "mental": 0.75,
+            "flair": 0.65,
+            "special": 1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "fullname": "Christian Eriksen",
+      "name": "Eriksen",
+      "picture": "eriksen",
+      "position": "Orta Saha",
+      "country": "Denmark",
+      "team": "Inter",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.51,
+            "physical": 0.63,
+            "speed": 0.63,
+            "vision": 0.9,
+            "attacking": 0.83,
+            "technical": 0.91,
+            "heading": 0.35,
+            "mental": 0.8,
+            "flair": 0.65,
+            "special": 0.8
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "fullname": "Milan Škriniar",
+      "name": "Škriniar",
+      "picture": "skriniar",
+      "position": "Defans",
+      "country": "Slovakia",
+      "team": "Inter",
+      "age": 1995,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.82,
+            "speed": 0.69,
+            "vision": 0.57,
+            "attacking": 0.42,
+            "technical": 0.69,
+            "heading": 0.82,
+            "mental": 0.75,
+            "flair": 0.35,
+            "special": -0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "fullname": "Roberto Firmino",
+      "name": "Firmino",
+      "picture": "firmino",
+      "position": "Forvet",
+      "country": "Brazil",
+      "team": "Liverpool",
+      "age": 1991,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.65,
+            "physical": 0.78,
+            "speed": 0.77,
+            "vision": 0.86,
+            "attacking": 0.85,
+            "technical": 0.88,
+            "heading": 0.63,
+            "mental": 0.75,
+            "flair": 0.8,
+            "special": -1.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "fullname": "Paulo Dybala",
+      "name": "Dybala",
+      "picture": "dybala",
+      "position": "Forvet",
+      "country": "Argentina",
+      "team": "Juventus",
+      "age": 1993,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.2,
+            "physical": 0.64,
+            "speed": 0.83,
+            "vision": 0.87,
+            "attacking": 0.8,
+            "technical": 0.93,
+            "heading": 0.45,
+            "mental": 0.65,
+            "flair": 0.85,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "fullname": "Sergio Busquets",
+      "name": "Busquets",
+      "picture": "busquets",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "Barcelona",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.89,
+            "physical": 0.7,
+            "speed": 0.42,
+            "vision": 0.83,
+            "attacking": 0.67,
+            "technical": 0.88,
+            "heading": 0.68,
+            "mental": 0.88,
+            "flair": 0.45,
+            "special": 0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "fullname": "Thiago Silva",
+      "name": "T. Silva",
+      "picture": "tsilva",
+      "position": "Defans",
+      "country": "Brazil",
+      "team": "PSG",
+      "age": 1984,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.9,
+            "physical": 0.78,
+            "speed": 0.62,
+            "vision": 0.7,
+            "attacking": 0.4,
+            "technical": 0.65,
+            "heading": 0.81,
+            "mental": 0.8,
+            "flair": 0.4,
+            "special": -0.7
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "fullname": "Mats Hummels",
+      "name": "Hummels",
+      "picture": "hummels",
+      "position": "Defans",
+      "country": "Germany",
+      "team": "Dortmund",
+      "age": 1988,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.89,
+            "physical": 0.76,
+            "speed": 0.51,
+            "vision": 0.64,
+            "attacking": 0.55,
+            "technical": 0.75,
+            "heading": 0.87,
+            "mental": 0.85,
+            "flair": 0.45,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "fullname": "Toby Alderweireld",
+      "name": "Alderweireld",
+      "picture": "alderweireld",
+      "position": "Defans",
+      "country": "Belgium",
+      "team": "Tottenham",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.88,
+            "physical": 0.79,
+            "speed": 0.64,
+            "vision": 0.62,
+            "attacking": 0.48,
+            "technical": 0.68,
+            "heading": 0.82,
+            "mental": 0.72,
+            "flair": 0.5,
+            "special": -0.2
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "fullname": "David Silva",
+      "name": "D. Silva",
+      "picture": "dsilva",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "Manchester City",
+      "age": 1986,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.35,
+            "physical": 0.57,
+            "speed": 0.65,
+            "vision": 0.91,
+            "attacking": 0.72,
+            "technical": 0.92,
+            "heading": 0.54,
+            "mental": 0.75,
+            "flair": 0.95,
+            "special": -0.9
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "fullname": "Jan Vertonghen",
+      "name": "Vertonghen",
+      "picture": "vertonghen",
+      "position": "Defans",
+      "country": "Belgium",
+      "team": "Tottenham",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.89,
+            "physical": 0.79,
+            "speed": 0.63,
+            "vision": 0.68,
+            "attacking": 0.56,
+            "technical": 0.77,
+            "heading": 0.8,
+            "mental": 0.75,
+            "flair": 0.6,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "fullname": "Bernardo Silva",
+      "name": "Bernardo",
+      "picture": "bernardo",
+      "position": "Orta Saha",
+      "country": "Portugal",
+      "team": "Manchester City",
+      "age": 1994,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.4,
+            "physical": 0.67,
+            "speed": 0.81,
+            "vision": 0.85,
+            "attacking": 0.78,
+            "technical": 0.88,
+            "heading": 0.4,
+            "mental": 0.75,
+            "flair": 0.85,
+            "special": -0.8
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "fullname": "Leonardo Bonucci",
+      "name": "Bonucci",
+      "picture": "bonucci",
+      "position": "Defans",
+      "country": "Italy",
+      "team": "Juventus",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.9,
+            "physical": 0.79,
+            "speed": 0.58,
+            "vision": 0.74,
+            "attacking": 0.48,
+            "technical": 0.75,
+            "heading": 0.84,
+            "mental": 0.84,
+            "flair": 0.5,
+            "special": -1.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "fullname": "Toni Kroos",
+      "name": "Kroos",
+      "picture": "kroos",
+      "position": "Orta Saha",
+      "country": "Germany",
+      "team": "Real Madrid",
+      "age": 1990,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.45,
+            "physical": 0.69,
+            "speed": 0.45,
+            "vision": 0.89,
+            "attacking": 0.75,
+            "technical": 0.89,
+            "heading": 0.4,
+            "mental": 0.72,
+            "flair": 0.55,
+            "special": 1.9
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "fullname": "Edinson Cavani",
+      "name": "Cavani",
+      "picture": "cavani",
+      "position": "Forvet",
+      "country": "Uruguay",
+      "team": "PSG",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.52,
+            "physical": 0.85,
+            "speed": 0.75,
+            "vision": 0.64,
+            "attacking": 0.88,
+            "technical": 0.67,
+            "heading": 0.92,
+            "mental": 0.75,
+            "flair": 0.6,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "fullname": "Thomas Müller",
+      "name": "Müller",
+      "picture": "muller",
+      "position": "Forvet",
+      "country": "Germany",
+      "team": "Bayern Münih",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.45,
+            "physical": 0.71,
+            "speed": 0.72,
+            "vision": 0.75,
+            "attacking": 0.87,
+            "technical": 0.64,
+            "heading": 0.6,
+            "mental": 0.87,
+            "flair": 0.75,
+            "special": -0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "fullname": "Karim Benzema",
+      "name": "Benzema",
+      "picture": "benzema",
+      "position": "Forvet",
+      "country": "France",
+      "team": "Real Madrid",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.44,
+            "physical": 0.72,
+            "speed": 0.66,
+            "vision": 0.86,
+            "attacking": 0.84,
+            "technical": 0.9,
+            "heading": 0.68,
+            "mental": 0.62,
+            "flair": 0.85,
+            "special": -1.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "fullname": "Casemiro",
+      "name": "Casemiro",
+      "picture": "casemiro",
+      "position": "Orta Saha",
+      "country": "Brazil",
+      "team": "Real Madrid",
+      "age": 1992,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.86,
+            "physical": 0.89,
+            "speed": 0.62,
+            "vision": 0.77,
+            "attacking": 0.64,
+            "technical": 0.78,
+            "heading": 0.76,
+            "mental": 0.75,
+            "flair": 0.6,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "fullname": "Marco Reus",
+      "name": "Reus",
+      "picture": "reus",
+      "position": "Forvet",
+      "country": "Germany",
+      "team": "Dortmund",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.42,
+            "physical": 0.66,
+            "speed": 0.85,
+            "vision": 0.78,
+            "attacking": 0.87,
+            "technical": 0.88,
+            "heading": 0.35,
+            "mental": 0.6,
+            "flair": 0.75,
+            "special": -0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "fullname": "Pierre-Emerick Aubameyang",
+      "name": "Aubameyang",
+      "picture": "aubameyang",
+      "position": "Forvet",
+      "country": "Gabon",
+      "team": "Arsenal",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.31,
+            "physical": 0.69,
+            "speed": 0.94,
+            "vision": 0.77,
+            "attacking": 0.89,
+            "technical": 0.72,
+            "heading": 0.71,
+            "mental": 0.65,
+            "flair": 0.65,
+            "special": -0.3
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "fullname": "Dries Mertens",
+      "name": "Mertens",
+      "picture": "mertens",
+      "position": "Forvet",
+      "country": "Belgium",
+      "team": "Napoli",
+      "age": 1987,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.35,
+            "physical": 0.53,
+            "speed": 0.88,
+            "vision": 0.82,
+            "attacking": 0.86,
+            "technical": 0.88,
+            "heading": 0.41,
+            "mental": 0.7,
+            "flair": 0.75,
+            "special": -0.6
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "fullname": "Jordi Alba",
+      "name": "Alba",
+      "picture": "alba",
+      "position": "Defans",
+      "country": "Spain",
+      "team": "Barcelona",
+      "age": 1989,
+      "legend": false,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.65,
+            "physical": 0.79,
+            "speed": 0.9,
+            "vision": 0.78,
+            "attacking": 0.7,
+            "technical": 0.85,
+            "heading": 0.25,
+            "mental": 0.75,
+            "flair": 0.65,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    }
+  ]
+}
