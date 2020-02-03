@@ -10,6 +10,9 @@
       "team": "Barcelona",
       "age": 1987,
       "legend": false,
+      "ballondor": 6,
+      "besteurope": 2,
+      "teamoftheyear": 11,
       "skills": [
         {
           "data": {
@@ -38,6 +41,9 @@
       "team": "Juventus",
       "age": 1985,
       "legend": false,
+      "ballondor": 5,
+      "besteurope": 4,
+      "teamoftheyear": 14,
       "skills": [
         {
           "data": {
@@ -66,6 +72,8 @@
       "team": "",
       "age": 1980,
       "legend": true,
+      "ballondor": 2,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -94,6 +102,8 @@
       "team": "",
       "age": 1984,
       "legend": true,
+      "besteurope": 1,
+      "teamoftheyear": 6,
       "skills": [
         {
           "data": {
@@ -122,6 +132,8 @@
       "team": "",
       "age": 1972,
       "legend": true,
+      "ballondor": 1,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -150,6 +162,7 @@
       "team": "",
       "age": 1968,
       "legend": true,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -178,6 +191,8 @@
       "team": "",
       "age": 1976,
       "legend": true,
+      "ballondor": 3,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -206,6 +221,7 @@
       "team": "PSG",
       "age": 1992,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -234,6 +250,8 @@
       "team": "Liverpool",
       "age": 1991,
       "legend": false,
+      "besteurope": 1,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -262,6 +280,7 @@
       "team": "Real Madrid",
       "age": 1986,
       "legend": false,
+      "teamoftheyear": 8,
       "skills": [
         {
           "data": {
@@ -290,6 +309,8 @@
       "team": "",
       "age": 1973,
       "legend": true,
+      "ballondor": 1,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -318,6 +339,7 @@
       "team": "Atletico Madrid",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -346,6 +368,7 @@
       "team": "Manchester United",
       "age": 1990,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -374,6 +397,7 @@
       "team": "Juventus",
       "age": 1984,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -402,6 +426,7 @@
       "team": "Liverpool",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -430,6 +455,7 @@
       "team": "Liverpool",
       "age": 1992,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -458,6 +484,7 @@
       "team": "",
       "age": 1978,
       "legend": true,
+      "teamoftheyear": 6,
       "skills": [
         {
           "data": {
@@ -486,6 +513,7 @@
       "team": "",
       "age": 1976,
       "legend": true,
+      "teamoftheyear": 4,
       "skills": [
         {
           "data": {
@@ -514,6 +542,7 @@
       "team": "Real Madrid",
       "age": 1991,
       "legend": false,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -542,6 +571,7 @@
       "team": "Barcelona",
       "age": 1987,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -570,6 +600,8 @@
       "team": "PSG",
       "age": 1998,
       "legend": false,
+      "goldenboy": true,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -598,6 +630,7 @@
       "team": "Manchester City",
       "age": 1991,
       "legend": false,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -626,6 +659,7 @@
       "team": "Napoli",
       "age": 1991,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -654,6 +688,7 @@
       "team": "Barcelona",
       "age": 1987,
       "legend": false,
+      "teamoftheyear": 5,
       "skills": [
         {
           "data": {
@@ -682,19 +717,20 @@
       "team": "Real Madrid",
       "age": 1988,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
-            "defending": 0.55,
+            "defending": 0.74,
             "physical": 0.79,
             "speed": 0.81,
             "vision": 0.84,
-            "attacking": 0.73,
+            "attacking": 0.84,
             "technical": 0.92,
             "heading": 0.41,
-            "mental": 0.65,
+            "mental": 0.76,
             "flair": 0.9,
-            "special": 0.5
+            "special": -1
           },
           "meta": { "color": "#23d160" }
         }
@@ -710,6 +746,7 @@
       "team": "Bayern Münih",
       "age": 1986,
       "legend": false,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -738,6 +775,7 @@
       "team": "Manchester City",
       "age": 1988,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -766,6 +804,8 @@
       "team": "",
       "age": 1967,
       "legend": true,
+      
+      "ballondor": 1,
       "skills": [
         {
           "data": {
@@ -794,6 +834,7 @@
       "team": "Inter",
       "age": 1986,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -822,6 +863,7 @@
       "team": "Bayern Münih",
       "age": 1988,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -850,6 +892,7 @@
       "team": "Tottenham",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -878,6 +921,7 @@
       "team": "Liverpool",
       "age": 1992,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -906,6 +950,7 @@
       "team": "Manchester City",
       "age": 1994,
       "legend": false,
+      "goldenboy": true,
       "skills": [
         {
           "data": {
@@ -934,6 +979,9 @@
       "team": "Real Madrid",
       "age": 1985,
       "legend": false,
+      "ballondor": 1,
+      "besteurope": 1,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -962,6 +1010,8 @@
       "team": "Manchester United",
       "age": 1993,
       "legend": false,
+      "goldenboy": true,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -990,6 +1040,7 @@
       "team": "Barcelona",
       "age": 1997,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -1018,6 +1069,7 @@
       "team": "Barcelona",
       "age": 1992,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -1046,6 +1098,7 @@
       "team": "Chelsea",
       "age": 1991,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -1074,6 +1127,7 @@
       "team": "Inter",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1102,6 +1156,7 @@
       "team": "Inter",
       "age": 1995,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1130,6 +1185,7 @@
       "team": "Liverpool",
       "age": 1991,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1158,6 +1214,7 @@
       "team": "Real Madrid",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1186,6 +1243,7 @@
       "team": "Juventus",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1214,6 +1272,7 @@
       "team": "Barcelona",
       "age": 1988,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1242,6 +1301,7 @@
       "team": "PSG",
       "age": 1984,
       "legend": false,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -1270,6 +1330,7 @@
       "team": "Dortmund",
       "age": 1988,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1298,6 +1359,7 @@
       "team": "Tottenham",
       "age": 1989,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1326,6 +1388,7 @@
       "team": "Manchester City",
       "age": 1986,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1354,6 +1417,7 @@
       "team": "Tottenham",
       "age": 1987,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1382,6 +1446,7 @@
       "team": "Manchester City",
       "age": 1994,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1410,6 +1475,7 @@
       "team": "Atletico Madrid",
       "age": 1999,
       "legend": false,
+      "goldenboy": true,
       "skills": [
         {
           "data": {
@@ -1438,6 +1504,7 @@
       "team": "Juventus",
       "age": 1987,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -1466,6 +1533,7 @@
       "team": "Real Madrid",
       "age": 1990,
       "legend": false,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -1494,6 +1562,7 @@
       "team": "Leicester City",
       "age": 1996,
       "legend": false,
+      "marketValueIsLow": 2.5,
       "skills": [
         {
           "data": {
@@ -1522,6 +1591,7 @@
       "team": "Juventus",
       "age": 1978,
       "legend": false,
+      "teamoftheyear": 5,
       "skills": [
         {
           "data": {
@@ -1550,6 +1620,7 @@
       "team": "Roma",
       "age": 1997,
       "legend": false,
+      "marketValueIsLow": 2.5,
       "skills": [
         {
           "data": {
@@ -1578,6 +1649,7 @@
       "team": "PSG",
       "age": 1987,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1606,6 +1678,7 @@
       "team": "Bayern Münih",
       "age": 1989,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1634,6 +1707,7 @@
       "team": "Real Madrid",
       "age": 1987,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1662,6 +1736,7 @@
       "team": "Juventus",
       "age": 1998,
       "legend": false,
+      "marketValueIsLow": 2.5,
       "skills": [
         {
           "data": {
@@ -1690,6 +1765,7 @@
       "team": "Stuttgart",
       "age": 2000,
       "legend": false,
+      "marketValueIsLow": 2.5,
       "skills": [
         {
           "data": {
@@ -1718,6 +1794,7 @@
       "team": "Real Madrid",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1746,6 +1823,7 @@
       "team": "Dortmund",
       "age": 1989,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -1774,6 +1852,7 @@
       "team": "Arsenal",
       "age": 1989,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1802,6 +1881,7 @@
       "team": "Napoli",
       "age": 1987,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1830,6 +1910,7 @@
       "team": "Lazio",
       "age": 1995,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1858,6 +1939,7 @@
       "team": "Lille",
       "age": 1997,
       "legend": false,
+      "marketValueIsLow": 3,
       "skills": [
         {
           "data": {
@@ -1886,6 +1968,7 @@
       "team": "Barcelona",
       "age": 1989,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1914,6 +1997,7 @@
       "team": "Fenerbahçe",
       "age": 1980,
       "legend": false,
+      "marketValueIsLow": 3,
       "skills": [
         {
           "data": {
@@ -1942,6 +2026,7 @@
       "team": "Wolverhampton",
       "age": 1996,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -1970,6 +2055,7 @@
       "team": "Trabzonspor",
       "age": 1996,
       "legend": false,
+      "marketValueIsLow": 5,
       "skills": [
         {
           "data": {
@@ -2026,6 +2112,7 @@
       "team": "Galatasaray",
       "age": 1986,
       "legend": false,
+      "marketValueIsLow": 3,
       "skills": [
         {
           "data": {
@@ -2054,6 +2141,7 @@
       "team": "Beşiktaş",
       "age": 1983,
       "legend": false,
+      "marketValueIsLow": 3,
       "skills": [
         {
           "data": {
@@ -2082,6 +2170,7 @@
       "team": "Beşiktaş",
       "age": 1991,
       "legend": false,
+      "marketValueIsLow": 7,
       "skills": [
         {
           "data": {
@@ -2110,6 +2199,7 @@
       "team": "Beşiktaş",
       "age": 1989,
       "legend": false,
+      "marketValueIsLow": 5,
       "skills": [
         {
           "data": {
@@ -2138,6 +2228,7 @@
       "team": "Beşiktaş",
       "age": 1996,
       "legend": false,
+      "marketValueIsLow": 7,
       "skills": [
         {
           "data": {
@@ -2166,6 +2257,7 @@
       "team": "Beşiktaş",
       "age": 1985,
       "legend": false,
+      "marketValueIsLow": 5,
       "skills": [
         {
           "data": {
@@ -2194,6 +2286,7 @@
       "team": "Kasımpaşa",
       "age": 1983,
       "legend": false,
+      "marketValueIsLow": 7,
       "skills": [
         {
           "data": {
@@ -2222,6 +2315,7 @@
       "team": "Galatasaray",
       "age": 1986,
       "legend": false,
+      "marketValueIsLow": 7,
       "skills": [
         {
           "data": {
@@ -2250,6 +2344,7 @@
       "team": "Trabzonspor",
       "age": 1999,
       "legend": false,
+      "marketValueIsLow": 5,
       "skills": [
         {
           "data": {
@@ -2278,6 +2373,7 @@
       "team": "Trabzonspor",
       "age": 1985,
       "legend": false,
+      "marketValueIsLow": 7,
       "skills": [
         {
           "data": {
@@ -2306,6 +2402,7 @@
       "team": "Fenerbahçe",
       "age": 1994,
       "legend": false,
+      "marketValueIsLow": 7,
       "skills": [
         {
           "data": {
@@ -2334,6 +2431,7 @@
       "team": "Galatasaray",
       "age": 1992,
       "legend": false,
+      "marketValueIsLow": 8,
       "skills": [
         {
           "data": {
@@ -2362,6 +2460,7 @@
       "team": "Galatasaray",
       "age": 1997,
       "legend": false,
+      "marketValueIsLow": 10,
       "skills": [
         {
           "data": {
@@ -2390,6 +2489,7 @@
       "team": "Barcelona",
       "age": 1991,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -2418,6 +2518,7 @@
       "team": "Barcelona",
       "age": 1997,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2446,6 +2547,7 @@
       "team": "Barcelona",
       "age": 1988,
       "legend": false,
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -2474,6 +2576,7 @@
       "team": "Barcelona",
       "age": 1987,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2502,6 +2605,7 @@
       "team": "Barcelona",
       "age": 1996,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2530,6 +2634,7 @@
       "team": "Barcelona",
       "age": 1993,
       "legend": false,
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -2558,6 +2663,7 @@
       "team": "Real Madrid",
       "age": 1989,
       "legend": false,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -2586,6 +2692,7 @@
       "team": "Real Madrid",
       "age": 2001,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2614,6 +2721,7 @@
       "team": "Real Madrid",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2642,6 +2750,7 @@
       "team": "Real Madrid",
       "age": 1993,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -2670,6 +2779,7 @@
       "team": "Atletico Madrid",
       "age": 1988,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2698,6 +2808,7 @@
       "team": "Atletico Madrid",
       "age": 1995,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2726,6 +2837,7 @@
       "team": "Atletico Madrid",
       "age": 1994,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2754,6 +2866,7 @@
       "team": "Atletico Madrid",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2782,6 +2895,7 @@
       "team": "Liverpool",
       "age": 1998,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -2810,6 +2924,7 @@
       "team": "Liverpool",
       "age": 1997,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2838,6 +2953,7 @@
       "team": "Liverpool",
       "age": 1994,
       "legend": false,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -2866,6 +2982,7 @@
       "team": "Liverpool",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2894,6 +3011,7 @@
       "team": "Manchester City",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2922,6 +3040,7 @@
       "team": "Juventus",
       "age": 1987,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -2950,6 +3069,7 @@
       "team": "Juventus",
       "age": 1986,
       "legend": false,
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -2978,6 +3098,7 @@
       "team": "Juventus",
       "age": 1987,
       "legend": false,
+      "marketValueIsLow": 4,
       "skills": [
         {
           "data": {
@@ -3006,6 +3127,8 @@
       "team": "Juventus",
       "age": 1999,
       "legend": false,
+      "goldenboy": true,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -3034,6 +3157,7 @@
       "team": "PSG",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3062,6 +3186,7 @@
       "team": "PSG",
       "age": 1988,
       "legend": false,
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -3090,6 +3215,7 @@
       "team": "PSG",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3118,6 +3244,7 @@
       "team": "Tottenham",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3146,6 +3273,7 @@
       "team": "Tottenham",
       "age": 1996,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3174,6 +3302,7 @@
       "team": "Dortmund",
       "age": 1989,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3202,6 +3331,7 @@
       "team": "Dortmund",
       "age": 2000,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3230,6 +3360,7 @@
       "team": "Chelsea",
       "age": 1994,
       "legend": false,
+      "marketValueIsLow": 3,
       "skills": [
         {
           "data": {
@@ -3258,6 +3389,7 @@
       "team": "Bayern Münih",
       "age": 1992,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3286,6 +3418,7 @@
       "team": "Bayern Münih",
       "age": 1995,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3314,6 +3447,8 @@
       "team": "Bayern Münih",
       "age": 1988,
       "legend": false,
+      "teamoftheyear": 1,
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -3342,6 +3477,7 @@
       "team": "Bayern Münih",
       "age": 1991,
       "legend": false,
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -3370,6 +3506,7 @@
       "team": "Inter",
       "age": 1997,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3398,6 +3535,7 @@
       "team": "Inter",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3426,6 +3564,7 @@
       "team": "Leipzig",
       "age": 1996,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3454,6 +3593,7 @@
       "team": "Manchester United",
       "age": 1997,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3482,6 +3622,7 @@
       "team": "Manchester United",
       "age": 2001,
       "legend": false,
+      "marketValueIsLow": 9,
       "skills": [
         {
           "data": {
@@ -3510,6 +3651,7 @@
       "team": "Manchester United",
       "age": 1995,
       "legend": false,
+      "goldenboy": true,
       "skills": [
         {
           "data": {
@@ -3538,6 +3680,7 @@
       "team": "Manchester United",
       "age": 1993,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3566,6 +3709,8 @@
       "team": "Milan",
       "age": 1981,
       "legend": false,
+      "teamoftheyear": 4,
+      "marketValueIsLow": 3,
       "skills": [
         {
           "data": {
@@ -3594,6 +3739,7 @@
       "team": "Milan",
       "age": 1996,
       "legend": false,
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -3622,6 +3768,7 @@
       "team": "Milan",
       "age": 1999,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3650,6 +3797,7 @@
       "team": "Arsenal",
       "age": 1996,
       "legend": false,
+      
       "skills": [
         {
           "data": {
@@ -3678,6 +3826,7 @@
       "team": "",
       "age": 1960,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -3690,7 +3839,7 @@
             "heading": 0.27,
             "mental": 0.67,
             "flair": 0.95,
-            "special": 0
+            "special": -0.3
           },
           "meta": { "color": "#f44336" }
         }
@@ -3706,6 +3855,7 @@
       "team": "",
       "age": 1940,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -3734,6 +3884,8 @@
       "team": "",
       "age": 1947,
       "legend": true,
+      
+      "ballondor": 3,
       "skills": [
         {
           "data": {
@@ -3762,6 +3914,7 @@
       "team": "",
       "age": 1977,
       "legend": true,
+      "teamoftheyear": 5,
       "skills": [
         {
           "data": {
@@ -3790,6 +3943,7 @@
       "team": "",
       "age": 1976,
       "legend": true,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -3818,6 +3972,8 @@
       "team": "",
       "age": 1972,
       "legend": true,
+      
+      "ballondor": 1,
       "skills": [
         {
           "data": {
@@ -3846,6 +4002,7 @@
       "team": "",
       "age": 1974,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -3874,6 +4031,8 @@
       "team": "",
       "age": 1972,
       "legend": true,
+      
+      "ballondor": 1,
       "skills": [
         {
           "data": {
@@ -3902,6 +4061,7 @@
       "team": "",
       "age": 1977,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -3930,6 +4090,7 @@
       "team": "",
       "age": 1973,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -3958,6 +4119,7 @@
       "team": "",
       "age": 1979,
       "legend": true,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -3986,6 +4148,7 @@
       "team": "",
       "age": 1980,
       "legend": true,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -4014,6 +4177,7 @@
       "team": "",
       "age": 1976,
       "legend": true,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -4042,6 +4206,8 @@
       "team": "",
       "age": 1976,
       "legend": true,
+      "ballondor": 1,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -4070,6 +4236,7 @@
       "team": "",
       "age": 1974,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -4098,6 +4265,7 @@
       "team": "",
       "age": 1976,
       "legend": true,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -4126,6 +4294,7 @@
       "team": "",
       "age": 1973,
       "legend": true,
+      "teamoftheyear": 2,
       "skills": [
         {
           "data": {
@@ -4154,6 +4323,8 @@
       "team": "",
       "age": 1982,
       "legend": true,
+      "ballondor": 1,
+      "teamoftheyear": 3,
       "skills": [
         {
           "data": {
@@ -4182,6 +4353,7 @@
       "team": "",
       "age": 1978,
       "legend": true,
+      "teamoftheyear": 1,
       "skills": [
         {
           "data": {
@@ -4210,6 +4382,7 @@
       "team": "",
       "age": 1973,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -4238,6 +4411,7 @@
       "team": "",
       "age": 1978,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -4266,6 +4440,7 @@
       "team": "",
       "age": 1982,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -4294,6 +4469,7 @@
       "team": "",
       "age": 1978,
       "legend": true,
+      
       "skills": [
         {
           "data": {
@@ -4309,6 +4485,381 @@
             "special": 0
           },
           "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "fullname": "Xavier Hernández",
+      "name": "Xavi",
+      "picture": "xavi",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "",
+      "age": 1980,
+      "legend": true,
+      "teamoftheyear": 5,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.6,
+            "physical": 0.58,
+            "speed": 0.62,
+            "vision": 0.97,
+            "attacking": 0.8,
+            "technical": 0.97,
+            "heading": 0.5,
+            "mental": 0.91,
+            "flair": 0.85,
+            "special": 0.5
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "fullname": "Iker Casillas Fernández",
+      "name": "Casillas",
+      "picture": "casillas",
+      "position": "Kaleci",
+      "country": "Spain",
+      "team": "Porto",
+      "age": 1981,
+      "legend": false,
+      "teamoftheyear": 6,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.92,
+            "physical": 0.67,
+            "speed": 0.8,
+            "vision": 0.4,
+            "attacking": 0.86,
+            "technical": 0.67,
+            "heading": 0.86,
+            "mental": 0.88,
+            "flair": 0.1,
+            "special": 0
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "fullname": "Edwin van der Sar",
+      "name": "van der Sar",
+      "picture": "vandersar",
+      "position": "Kaleci",
+      "country": "Holland",
+      "team": "",
+      "age": 1970,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.9,
+            "physical": 0.73,
+            "speed": 0.55,
+            "vision": 0.33,
+            "attacking": 0.81,
+            "technical": 0.62,
+            "heading": 0.92,
+            "mental": 0.85,
+            "flair": 0.1,
+            "special": 0.7
+          },
+          "meta": { "color": "#ffca28" }
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "fullname": "Josep Guardiola Sala",
+      "name": "Guardiola",
+      "picture": "guardiola",
+      "position": "Orta Saha",
+      "country": "Spain",
+      "team": "",
+      "age": 1971,
+      "legend": true,
+      
+      "skills": [
+        {
+          "data": {
+            "defending": 0.89,
+            "physical": 0.83,
+            "speed": 0.68,
+            "vision": 0.91,
+            "attacking": 0.57,
+            "technical": 0.91,
+            "heading": 0.67,
+            "mental": 0.9,
+            "flair": 0.1,
+            "special": -1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "fullname": "Frank Lampard",
+      "name": "Lampard",
+      "picture": "lampard",
+      "position": "Orta Saha",
+      "country": "England",
+      "team": "",
+      "age": 1978,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.48,
+            "physical": 0.76,
+            "speed": 0.7,
+            "vision": 0.82,
+            "attacking": 0.85,
+            "technical": 0.87,
+            "heading": 0.67,
+            "mental": 0.83,
+            "flair": 0.55,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "fullname": "Javier Zanetti",
+      "name": "Zanetti",
+      "picture": "zanetti",
+      "position": "Defans",
+      "country": "Argentina",
+      "team": "",
+      "age": 1973,
+      "legend": true,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.87,
+            "physical": 0.8,
+            "speed": 0.88,
+            "vision": 0.81,
+            "attacking": 0.57,
+            "technical": 0.87,
+            "heading": 0.45,
+            "mental": 0.8,
+            "flair": 0.35,
+            "special": 0
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "fullname": "Arjen Robben",
+      "name": "Robben",
+      "picture": "robben",
+      "position": "Forvet",
+      "country": "Holland",
+      "team": "",
+      "age": 1984,
+      "legend": true,
+      "teamoftheyear": 2,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.37,
+            "physical": 0.62,
+            "speed": 0.95,
+            "vision": 0.83,
+            "attacking": 0.88,
+            "technical": 0.88,
+            "heading": 0.32,
+            "mental": 0.75,
+            "flair": 0.8,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "fullname": "Franck Ribéry",
+      "name": "Ribéry",
+      "picture": "ribery",
+      "position": "Forvet",
+      "country": "France",
+      "team": "",
+      "age": 1983,
+      "legend": true,
+      "besteurope": 1,
+      "teamoftheyear": 2,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.38,
+            "physical": 0.62,
+            "speed": 0.85,
+            "vision": 0.9,
+            "attacking": 0.85,
+            "technical": 0.92,
+            "heading": 0.29,
+            "mental": 0.77,
+            "flair": 0.75,
+            "special": 0
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "fullname": "Fernando Torres",
+      "name": "F. Torres",
+      "picture": "torres",
+      "position": "Forvet",
+      "country": "Spain",
+      "team": "",
+      "age": 1984,
+      "legend": true,
+      "teamoftheyear": 1,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.23,
+            "physical": 0.72,
+            "speed": 0.79,
+            "vision": 0.82,
+            "attacking": 0.89,
+            "technical": 0.88,
+            "heading": 0.89,
+            "mental": 0.79,
+            "flair": 0.75,
+            "special": -1
+          },
+          "meta": { "color": "#f44336" }
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "fullname": "David Beckham",
+      "name": "Beckham",
+      "picture": "beckham",
+      "position": "Orta Saha",
+      "country": "England",
+      "team": "",
+      "age": 1975,
+      "legend": true,
+      "teamoftheyear": 2,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.5,
+            "physical": 0.74,
+            "speed": 0.76,
+            "vision": 0.94,
+            "attacking": 0.72,
+            "technical": 0.88,
+            "heading": 0.45,
+            "mental": 0.86,
+            "flair": 0.65,
+            "special": 1
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "fullname": "Daniel Alves",
+      "name": "Daniel Alves",
+      "picture": "alves",
+      "position": "Defans",
+      "country": "Brazil",
+      "team": "Sao Paulo",
+      "age": 1983,
+      "legend": false,
+      "teamoftheyear": 5,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.79,
+            "physical": 0.77,
+            "speed": 0.78,
+            "vision": 0.78,
+            "attacking": 0.89,
+            "technical": 0.86,
+            "heading": 0.48,
+            "mental": 0.85,
+            "flair": 0.7,
+            "special": 0.5
+          },
+          "meta": { "color": "#23d160" }
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "fullname": "Mesut Özil",
+      "name": "Mesut Özil",
+      "picture": "mesut",
+      "position": "Orta Saha",
+      "country": "Germany",
+      "team": "Arsenal",
+      "age": 1988,
+      "legend": false,
+      "teamoftheyear": 2,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.26,
+            "physical": 0.6,
+            "speed": 0.82,
+            "vision": 0.92,
+            "attacking": 0.83,
+            "technical": 0.91,
+            "heading": 0.26,
+            "mental": 0.76,
+            "flair": 0.6,
+            "special": 0
+          },
+          "meta": { "color": "#2196f3" }
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "fullname": "David Alaba",
+      "name": "David Alaba",
+      "picture": "alaba",
+      "position": "Defans",
+      "country": "Austria",
+      "team": "Bayern Münih",
+      "age": 1988,
+      "legend": false,
+      "teamoftheyear": 3,
+      "skills": [
+        {
+          "data": {
+            "defending": 0.82,
+            "physical": 0.76,
+            "speed": 0.9,
+            "vision": 0.85,
+            "attacking": 0.81,
+            "technical": 0.85,
+            "heading": 0.42,
+            "mental": 0.7,
+            "flair": 0.45,
+            "special": 0
+          },
+          "meta": { "color": "#23d160" }
         }
       ]
     }

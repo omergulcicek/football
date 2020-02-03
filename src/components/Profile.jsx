@@ -18,6 +18,10 @@ export default class Profile extends Component {
       team: "",
       age: 0,
       legend: false,
+      goldenboy: false,
+      ballondor: null,
+      besteurope: null,
+      teamoftheyear: null,
       skills: [
         {
           data: {
@@ -55,6 +59,10 @@ export default class Profile extends Component {
             team: r.team,
             age: r.age,
             legend: r.legend,
+            goldenboy: r.goldenboy,
+            ballondor: r.ballondor,
+            besteurope: r.besteurope,
+            teamoftheyear: r.teamoftheyear,
             skills: [
               {
                 data: {
@@ -85,7 +93,7 @@ export default class Profile extends Component {
   }
   
   render() {
-    const {id, name, fullname, picture, age, position, country, team, legend, skills} = this.state;
+    const {id, name, fullname, picture, age, position, country, team, legend, goldenboy, ballondor, besteurope, teamoftheyear, skills} = this.state;
 
     return (
       <div className="profile">
@@ -109,11 +117,22 @@ export default class Profile extends Component {
           team={team}
           skills={skills}
           legend={legend}
+          goldenboy={goldenboy}
+          ballondor={ballondor}
+          besteurope={besteurope}
+          teamoftheyear={teamoftheyear}
         />
 
-        <a href={id+1}>
-          Sonraki ({id+1})
-        </a>
+        <nav className="pagination">
+            <a href={id-1}>
+              {id !== 1 &&
+                `Önceki (${id-1})`
+              }
+              </a>
+          <a href={id+1}>
+            Sonraki ({id+1})
+          </a>
+        </nav>
       </div>
     );
   }

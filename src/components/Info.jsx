@@ -2,7 +2,7 @@ import React, {Component} from "react";
  
 export default class Info extends Component {
   render() {
-    const {age, fullname, position, country, team, skills, legend} = this.props;
+    const {age, fullname, position, country, team, skills, legend, goldenboy, ballondor, besteurope, teamoftheyear} = this.props;
 
     const {
       defending,
@@ -36,11 +36,55 @@ export default class Info extends Component {
           </p>
         }
 
+        {ballondor &&
+          <div>
+            <div className="icons trophy ballondor">
+              <strong>{ballondor}</strong>
+
+              <p>
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+                Ballon d'Or
+              </p>
+            </div>
+          </div>
+        }
+
+        {besteurope &&
+          <div>
+            <div className="icons trophy besteurope">
+              <strong>{besteurope}</strong>
+
+              <p>
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+                Men's Player of the Year Award
+                </p>
+            </div>
+          </div>
+        }
+
+        {teamoftheyear &&
+          <div>
+            <div className="icons teamoftheyear">
+              <strong>{teamoftheyear}</strong>
+              <p>UEFA Team of the Year</p>
+            </div>
+          </div>
+        }
+
         {legend &&
           <div>
             <div className={"icons text-" + positionClass}>
               <i className="fa fa-star" aria-hidden="true"></i>
               <p>Efsane</p>
+            </div>
+          </div>
+        }
+
+        {goldenboy &&
+          <div>
+            <div className="icons goldenboy">
+              <i className="fa fa-diamond" aria-hidden="true"></i>
+              <p>Genç Yıldız</p>
             </div>
           </div>
         }
@@ -122,7 +166,7 @@ export default class Info extends Component {
           </div>
         }
 
-        {technical >= 0.8 && vision >= 0.8 && mental >= 0.65 && position !== "Defans" &&
+        {technical >= 0.8 && vision >= 0.85 && mental >= 0.65 && position !== "Defans" &&
           <div>
             <div className={"icons text-" + positionClass}>
               <i className="fa fa-arrows-alt" aria-hidden="true"></i>

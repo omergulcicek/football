@@ -12,12 +12,12 @@ body {
   display: flex;
   justify-content: space-around;
   margin: auto;
-  max-width: 600px;
+  max-width: 750px;
   opacity: .9;
   padding: 12px;
   text-decoration: none;
-  transition: .3 ease-out;
-  width: 80%;
+  transition: .3;
+  width: 90%;
 }
 
 .player-item:hover {
@@ -56,6 +56,10 @@ body {
   grid-area: info;
 }
 
+.info > div {
+  margin-bottom: 4px;
+}
+
 .info > p {
   line-height: 1.7;
   margin-bottom: 24px;
@@ -81,6 +85,7 @@ body {
 .info .icons p {
   font-size: 14px;
   display: inline-block;
+  margin: 0;
   white-space: nowrap;
 }
 
@@ -89,13 +94,49 @@ body {
   padding: 3px 1px;
 }
 
+.info .trophy .fa {
+  width: auto;
+}
+
+.info .ballondor,
+.info .ballondor .fa {
+  color: #FFD700;
+}
+
+.info .besteurope,
+.info .besteurope .fa {
+  color: #C0C0C0;
+}
+
+.info .teamoftheyear,
+.info .teamoftheyear .fa {
+  color: #50c878;
+}
+
+.info .goldenboy .fa,
+.info .goldenboy p {
+  color: #70d1f4;
+}
+
 .profile {
   display: grid;
   grid-column-gap: 40px;
   grid-template-columns: 380px auto;
-  grid-template-rows: 340px auto;
+  grid-template-rows: 300px 500px auto;
   grid-template-areas: 
     "card graph"
-    "card info";
+    "card info"
+    "pagination pagination";
   justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  grid-area: pagination;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.pagination a {
+  color: #fff;
 }

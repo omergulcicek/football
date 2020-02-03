@@ -38,10 +38,10 @@ export default class Card extends Component {
             />
           </span>
           <span className="country">
-            <img src={`https://omergulcicek.com/img/country/${country.toLowerCase()}.png`} alt={country} />
+            <img src={`https://omergulcicek.com/img/country/${country.toLowerCase()}.png`} alt={country} width="35" />
           </span>
           <span className="team">
-            <img src={`https://omergulcicek.com/img/team/${team || "Legend"}.png`} alt={team} />
+            <img src={`https://omergulcicek.com/img/team/${team || "Legend"}.png`} alt={team} width="35" />
 
           </span>
           <span className={"position text-" + position.toLowerCase().replace(" ", "")}>
@@ -50,7 +50,7 @@ export default class Card extends Component {
         </header>
 
         <main>
-          <img src={`https://omergulcicek.com/img/player/${picture}.png`} alt={name}  />
+          <img src={`https://omergulcicek.com/img/player/${picture}.png`} alt={name} width="35" />
           <h1>{name}</h1>
         </main>
 

@@ -18,9 +18,10 @@ export default class Players extends Component {
           //let n = r.filter(x => x.team == "Barcelona");
           //let n = r.filter(x => x.legend);
           //let n = r.filter(x => x.position == "Orta Saha");
+          let n = r.filter(x => !x.legend);
 
           this.setState({
-            players: r
+            players: n
           });
         },
         error => {
@@ -31,24 +32,24 @@ export default class Players extends Component {
       document.title = "Mini Futbol | Tüm Oyuncular";
   }
 
-  value(power, year) {
+  value(power, year, goldenboy, ballondor, besteurope, teamoftheyear, legend, marketValueIsLow) {
     var age = new Date().getFullYear() - year;
 
     let totalValue = 0;
 
-    if(17 <= age && age <22) {
+    if(17 <= age && age <23) {
       totalValue = power * 1.5;
     }
-    if(22 <= age && age <25) {
+    if(23 <= age && age <25) {
       totalValue = power * 1.3;
     }
     if(25 <= age && age <27) {
       totalValue = power * 1.1;
     }
-    else if(27 <= age && age <30) {
+    else if(27 <= age && age <31) {
       totalValue = power * 1.2;
     }
-    else if(30 <= age && age <34) {
+    else if(31 <= age && age <34) {
       totalValue = power / 1.3;
     }
     else if(34 <= age && age <36) {
@@ -64,6 +65,30 @@ export default class Players extends Component {
       totalValue = power / 20;
     }
     
+    if(goldenboy) {
+      totalValue = totalValue * 2.15;
+    }
+
+    if(ballondor) {
+      totalValue += (ballondor * 25);
+    }
+  
+    if(besteurope) {
+      totalValue += (besteurope * 10);
+    }
+  
+    if(teamoftheyear) {
+      totalValue += (teamoftheyear * 5);
+    }
+  
+    if(legend) {
+      totalValue = totalValue / 10;
+    }
+  
+    if(marketValueIsLow) {
+      totalValue = totalValue / marketValueIsLow;
+    }
+  
     return Math.ceil(totalValue);
   }
 
@@ -123,7 +148,7 @@ export default class Players extends Component {
 
       <h1>${this.power(e.skills)}</h1>
 
-      <h2>€${this.value(this.power(e.skills), e.age)}M</h2>
+      <h2>€${this.value(this.power(e.skills), e.age, e.goldenboy, e.ballondor, e.besteurope, e.teamoftheyear, e.legend, e.marketValueIsLow)}M</h2>
     </a>`);
 
     return (
