@@ -107,7 +107,7 @@ export default class Info extends Component {
                 <p>Bitirici</p>
               }
 
-              { position == "Kaleci" &&
+              { position === "Kaleci" &&
                 <p>Ofansif Kaleci</p>
               }
             </div>
@@ -123,7 +123,7 @@ export default class Info extends Component {
                 <p>Savunma</p>
               }
 
-              { position == "Kaleci" &&
+              { position === "Kaleci" &&
                 <p>Panter</p>
               }
             </div>
@@ -175,7 +175,7 @@ export default class Info extends Component {
           </div>
         }
 
-        {defending >= 0.7 && technical >= 0.7 && position == "Defans" &&
+        {defending >= 0.7 && technical >= 0.7 && position === "Defans" &&
           <div>
             <div className={"icons text-" + positionClass}>
               <i className="fa fa-arrows" aria-hidden="true"></i>

@@ -10,7 +10,10 @@ export default class Players extends Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:3000/players")
+    var { isLoad } = this.state;
+
+    if(!isLoad) {
+      fetch("http://localhost:3000/players")
       .then(res => res.json())
       .then(
         r => {
@@ -18,18 +21,19 @@ export default class Players extends Component {
           //let n = r.filter(x => x.team == "Barcelona");
           //let n = r.filter(x => x.legend);
           //let n = r.filter(x => x.position == "Orta Saha");
-          let n = r.filter(x => !x.legend);
+          //let n = r.filter(x => x.position === "Forvet" && !x.legend);
 
           this.setState({
-            players: n
+            players: r
           });
         },
         error => {
           console.log(error);
         }
       );
-      
-      document.title = "Mini Futbol | Tüm Oyuncular";
+    }
+
+    document.title = "Mini Futbol | Tüm Oyuncular";
   }
 
   value(power, year, goldenboy, ballondor, besteurope, teamoftheyear, legend, marketValueIsLow) {
@@ -70,15 +74,15 @@ export default class Players extends Component {
     }
 
     if(ballondor) {
-      totalValue += (ballondor * 25);
+      totalValue += (ballondor * 15);
     }
   
     if(besteurope) {
-      totalValue += (besteurope * 10);
+      totalValue += (besteurope * 5);
     }
   
     if(teamoftheyear) {
-      totalValue += (teamoftheyear * 5);
+      totalValue += (teamoftheyear * 3);
     }
   
     if(legend) {

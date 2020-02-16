@@ -4,10 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+
+import Menu from "./components/Menu";
 import Profile from "./components/Profile";
 import Random from "./components/Random";
 import Players from "./components/Players";
-import Menu from "./components/Menu";
 
 export default class App extends Component {
   render() {

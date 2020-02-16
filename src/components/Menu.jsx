@@ -12,6 +12,7 @@ export default class Info extends Component {
         <Link to="/">Ana Sayfa</Link>
         <Link to="/players">Tüm Oyuncular</Link>
         <Link to="/random">Rastgele Oyuncu</Link>
+        <Link to="/teampower">Takım Gücü</Link>
       </nav>
     );
   }

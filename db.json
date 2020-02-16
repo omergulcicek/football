@@ -1794,7 +1794,7 @@
       "team": "Real Madrid",
       "age": 1992,
       "legend": false,
-      
+      "marketValueIsLow": 2,
       "skills": [
         {
           "data": {
@@ -2460,7 +2460,7 @@
       "team": "Galatasaray",
       "age": 1997,
       "legend": false,
-      "marketValueIsLow": 10,
+      "marketValueIsLow": 20,
       "skills": [
         {
           "data": {
@@ -2471,7 +2471,7 @@
             "attacking": 0.68,
             "technical": 0.77,
             "heading": 0.29,
-            "mental": 0.45,
+            "mental": 0.25,
             "flair": 0.9,
             "special": 0
           },
