@@ -23,8 +23,10 @@ export default class Players extends Component {
           //let n = r.filter(x => x.position == "Orta Saha");
           //let n = r.filter(x => x.position === "Forvet" && !x.legend);
 
+          let n = r.filter(x => !x.legend);
+
           this.setState({
-            players: r
+            players: n
           });
         },
         error => {
