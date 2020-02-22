@@ -45,7 +45,7 @@ export default class Profile extends Component {
   componentDidMount() {
     const id = window.location.pathname.split("/")[2];
     
-    fetch(`http://localhost:3000/players/${id}`)
+    fetch(`http://localhost:3001/players/${id}`)
       .then(res => res.json())
       .then(
         r => {

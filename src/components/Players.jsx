@@ -13,7 +13,7 @@ export default class Players extends Component {
     var { isLoad } = this.state;
 
     if(!isLoad) {
-      fetch("http://localhost:3000/players")
+      fetch("http://localhost:3001/players")
       .then(res => res.json())
       .then(
         r => {
