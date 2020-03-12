@@ -12,12 +12,30 @@ export default class Rating extends Component {
       heading,
       mental,
       flair,
-      special
-    } = this.props;
+      special,
+      shotStopping,
+      communication,
+      offensive,
+      distribution
+    } = this.props
 
     let totalPower = 0;
 
-    if(attacking > defending) {
+    if(shotStopping) {
+      totalPower
+        = Math.ceil(
+        ((shotStopping * 400)
+        + (physical * 50)
+        + (speed * 30)
+        + (communication * 50)
+        + (offensive * 120)
+        + (distribution * 150)
+        + (heading * 350)
+        + (mental * 100)
+        + (special * 100))
+      / 12)
+    }
+    else if(attacking > defending) {
       totalPower
       = Math.ceil(
       ((defending * 2)
@@ -30,7 +48,6 @@ export default class Rating extends Component {
       + (mental * 100)
       + (flair * 140)
       + (special * 25))
-
       / 7)
     }
     else {
@@ -44,7 +61,8 @@ export default class Rating extends Component {
       + (technical * 40)
       + (heading * 150)
       + (mental * 150)
-      + (special * 25))/7)
+      + (special * 25))
+      /7)
     }
 
     return (

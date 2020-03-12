@@ -23,11 +23,12 @@ export default class Players extends Component {
           //let n = r.filter(x => x.position == "Orta Saha");
           //let n = r.filter(x => x.position === "Forvet" && !x.legend);
 
-          let n = r.filter(x => !x.legend);
+          let n = r.filter(x => !x.legend)
 
           this.setState({
-            players: n
-          });
+            players: n.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
+            //players: n.sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
+          })
         },
         error => {
           console.log(error);
@@ -100,10 +101,26 @@ export default class Players extends Component {
 
   power(e) {
     var el = e[0].data;
+    
+    if (el.special === undefined) el.special = 0
 
     let totalPower = 0;
 
-    if(el.attacking > el.defending) {
+    if(el.shotStopping) {
+      totalPower
+        = Math.ceil(
+        ((el.shotStopping * 400)
+        + (el.physical * 50)
+        + (el.speed * 30)
+        + (el.communication * 50)
+        + (el.offensive * 120)
+        + (el.distribution * 150)
+        + (el.heading * 350)
+        + (el.mental * 100)
+        + (el.special * 100))
+      / 12)
+    }
+    else if(el.attacking > el.defending) {
       totalPower
       = Math.ceil(
       ((el.defending * 5)

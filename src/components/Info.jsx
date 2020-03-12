@@ -5,6 +5,10 @@ export default class Info extends Component {
     const {age, fullname, position, country, team, skills, legend, goldenboy, ballondor, besteurope, teamoftheyear} = this.props;
 
     const {
+      shotStopping,
+      offensive,
+      distribution,
+      communication,
       defending,
       physical,
       speed,
@@ -102,14 +106,16 @@ export default class Info extends Component {
           <div>
             <div className={"icons text-" + positionClass}>
               <i className="fa fa-futbol-o" aria-hidden="true"></i>
+              <p>Bitirici</p>
+            </div>
+          </div>
+        }
 
-              { position !== "Kaleci" &&
-                <p>Bitirici</p>
-              }
-
-              { position === "Kaleci" &&
-                <p>Ofansif Kaleci</p>
-              }
+        {offensive >= 0.85 && 
+          <div>
+            <div className={"icons text-" + positionClass}>
+              <i className="fa fa-futbol-o" aria-hidden="true"></i>
+              <p>Ofansif Kaleci</p>
             </div>
           </div>
         }
@@ -118,18 +124,19 @@ export default class Info extends Component {
           <div>
             <div className={"icons text-" + positionClass}>
               <i className="fa fa-shield" aria-hidden="true"></i>
-              
-              { position !== "Kaleci" &&
-                <p>Savunma</p>
-              }
-
-              { position === "Kaleci" &&
-                <p>Panter</p>
-              }
+              <p>Savunma</p>
             </div>
           </div>
         }
 
+        {shotStopping >= 0.9 &&
+          <div>
+            <div className={"icons text-" + positionClass}>
+              <i className="fa fa-shield" aria-hidden="true"></i>
+              <p>Panter</p>
+            </div>
+          </div>
+        }
         {physical >= 0.85 &&
           <div>
             <div className={"icons text-" + positionClass}>

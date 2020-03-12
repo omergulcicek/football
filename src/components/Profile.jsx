@@ -1,7 +1,9 @@
 import React, {Component} from "react";
 
 import Card from "./Card";
+import CardGK from "./CardGK";
 import Graph from "./Graph";
+import GraphGK from "./GraphGK";
 import Info from "./Info";
  
 export default class Profile extends Component {
@@ -34,7 +36,11 @@ export default class Profile extends Component {
             heading: 0,
             mental: 0,
             flair: 0,
-            special: 0
+            special: 0,
+            shotStopping: 0,
+            communication: 0,
+            offensive: 0,
+            distribution: 0
           },
           meta: { color: "" }
         }
@@ -49,6 +55,8 @@ export default class Profile extends Component {
       .then(res => res.json())
       .then(
         r => {
+          console.log(r.skills[0].data)
+
           this.setState({
             id: r.id,
             fullname: r.fullname,
@@ -66,16 +74,20 @@ export default class Profile extends Component {
             skills: [
               {
                 data: {
-                  defending: r.skills[0].data.defending,
-                  physical: r.skills[0].data.physical,
-                  speed: r.skills[0].data.speed,
-                  vision: r.skills[0].data.vision,
-                  attacking: r.skills[0].data.attacking,
-                  technical: r.skills[0].data.technical,
-                  heading: r.skills[0].data.heading,
-                  mental: r.skills[0].data.mental,
-                  flair: r.skills[0].data.flair,
-                  special: r.skills[0].data.special
+                  defending: r.skills[0].data.defending || 0,
+                  physical: r.skills[0].data.physical || 0,
+                  speed: r.skills[0].data.speed || 0,
+                  vision: r.skills[0].data.vision || 0,
+                  attacking: r.skills[0].data.attacking || 0,
+                  technical: r.skills[0].data.technical || 0,
+                  heading: r.skills[0].data.heading || 0,
+                  mental: r.skills[0].data.mental || 0,
+                  flair: r.skills[0].data.flair || 0,
+                  special: r.skills[0].data.special || 0,
+                  shotStopping: r.skills[0].data.shotStopping || 0,
+                  communication: r.skills[0].data.communication || 0,
+                  offensive: r.skills[0].data.offensive || 0,
+                  distribution: r.skills[0].data.distribution || 0
                 },
                 meta: { color: r.skills[0].meta.color }
               }
@@ -93,21 +105,40 @@ export default class Profile extends Component {
   }
   
   render() {
-    const {id, name, fullname, picture, age, position, country, team, legend, goldenboy, ballondor, besteurope, teamoftheyear, skills} = this.state;
+    const {id, name, fullname, picture, age, position, country, team, legend, goldenboy, ballondor, besteurope, teamoftheyear, skills} = this.state
 
     return (
       <div className="profile">
-        <Card
-          name={name}
-          skills={skills}
-          position={position}
-          picture={picture}
-          country={country}
-          team={team}
-          legend={legend}
-        />
+        
+        {
+         position === "Kaleci"
+          ? <CardGK
+              name={name}
+              skills={skills}
+              position={position}
+              picture={picture}
+              country={country}
+              team={team}
+              legend={legend}
+            />
+          : <Card
+              name={name}
+              skills={skills}
+              position={position}
+              picture={picture}
+              country={country}
+              team={team}
+              legend={legend}
+            />
+        }
 
-        <Graph skills={skills} />
+        
+
+        {
+         position === "Kaleci"
+          ? <GraphGK skills={skills} />
+          : <Graph skills={skills} />
+        }
 
         <Info
           fullname={fullname}

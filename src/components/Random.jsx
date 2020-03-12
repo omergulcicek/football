@@ -37,9 +37,9 @@ export default class Random extends Component {
   }
 
   componentDidMount() {
-    let randomNumber = Math.ceil(Math.random() * 2);
+    let randomNumber = Math.ceil(Math.random() * 10);
     
-    fetch(`http://localhost:3000/players/${randomNumber}`)
+    fetch(`http://localhost:3001/players/${randomNumber}`)
       .then(res => res.json())
       .then(
         r => {
