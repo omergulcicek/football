@@ -71,7 +71,7 @@ export default class CardGK extends Component {
               </tr>
               <tr>
                 <td>{Math.round(offensive * 100)}</td>
-                <th>Atak</th>
+                <th>Ofansif</th>
 
                 <td>{Math.round(physical * 100)}</td>
                 <th>Fizik</th>

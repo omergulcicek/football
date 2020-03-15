@@ -7,8 +7,6 @@ export default class Info extends Component {
     const {
       shotStopping,
       offensive,
-      distribution,
-      communication,
       defending,
       physical,
       speed,

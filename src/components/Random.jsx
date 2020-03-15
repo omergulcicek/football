@@ -1,5 +1,7 @@
 import React, {Component} from "react";
+
 import Card from "./Card";
+import CardGK from "./CardGK";
 
 import './../Random.css';
  
@@ -28,7 +30,11 @@ export default class Random extends Component {
             heading: 0,
             mental: 0,
             flair: 0,
-            special: 0
+            special: 0,
+            shotStopping: 0,
+            communication: 0,
+            offensive: 0,
+            distribution: 0
           },
           meta: { color: "" }
         }
@@ -37,7 +43,7 @@ export default class Random extends Component {
   }
 
   componentDidMount() {
-    let randomNumber = Math.ceil(Math.random() * 10);
+    let randomNumber = Math.ceil(Math.random() * 215);
     
     fetch(`http://localhost:3001/players/${randomNumber}`)
       .then(res => res.json())
@@ -64,7 +70,11 @@ export default class Random extends Component {
                   heading: r.skills[0].data.heading,
                   mental: r.skills[0].data.mental,
                   flair: r.skills[0].data.flair,
-                  special: r.skills[0].data.special
+                  special: r.skills[0].data.special || 0,
+                  shotStopping: r.skills[0].data.shotStopping,
+                  offensive: r.skills[0].data.offensive,
+                  distribution: r.skills[0].data.distribution,
+                  communication: r.skills[0].data.communication,
                 },
                 meta: { color: r.skills[0].meta.color }
               }
@@ -80,7 +90,6 @@ export default class Random extends Component {
           console.log(error);
         }
       );
-
 
     const card = document.querySelectorAll(".randomPlayer .card")[0];
     const country = card.querySelectorAll(".country")[0];
@@ -102,7 +111,7 @@ export default class Random extends Component {
   }
 
   delay(e, t) {
-    setTimeout(function(){ e.classList.add("show"); }, t);
+    setTimeout(function(){ e.classList.add("show") }, t);
   }
 
   render() {
@@ -110,15 +119,29 @@ export default class Random extends Component {
 
     return (
       <div className="randomPlayer">
-        <Card
-          name={name}
-          skills={skills}
-          legend={legend}
-          country={country}
-          team={team}
-          picture={picture}
-          position={position}
-        />
+
+        {
+         position === "Kaleci"
+          ? <CardGK
+              name={name}
+              skills={skills}
+              position={position}
+              picture={picture}
+              country={country}
+              team={team}
+              legend={legend}
+            />
+          : <Card
+              name={name}
+              skills={skills}
+              position={position}
+              picture={picture}
+              country={country}
+              team={team}
+              legend={legend}
+            />
+        }
+
       </div>
     );
   }

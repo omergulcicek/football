@@ -1,0 +1,30 @@
+.match {
+  background-color: #2e7d32;
+  height: 800px;
+  margin: auto;
+  width: 600px;
+  position: relative;
+}
+
+.match::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.match::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  transform: translateX(-50%) translateY(-50%);
+}

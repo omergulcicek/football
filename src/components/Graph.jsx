@@ -15,7 +15,7 @@ export default class Graph extends Component {
       technical: "Teknik",
       heading: "Hava",
       mental: "Zihinsel",
-    };
+    }
     
     const defaultOptions = {
       size: 200,
@@ -28,7 +28,7 @@ export default class Graph extends Component {
         fontSize: 12,
         fontFamily: 'Ubuntu'
       })
-    };
+    }
 
     const data = [];
     data.push(skills);

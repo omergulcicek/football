@@ -140,3 +140,8 @@ body {
 .pagination a {
   color: #fff;
 }
+
+.caption {
+  fill: #fff !important;
+  text-shadow: none !important;
+}

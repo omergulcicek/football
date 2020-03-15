@@ -1,14 +1,15 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route
-} from "react-router-dom";
+} from "react-router-dom"
 
-import Menu from "./components/Menu";
-import Profile from "./components/Profile";
-import Random from "./components/Random";
-import Players from "./components/Players";
+import Menu from "./components/Menu"
+import Profile from "./components/Profile"
+import Random from "./components/Random"
+import Players from "./components/Players"
+import Match from "./components/Match"
 
 export default class App extends Component {
   render() {
@@ -29,11 +30,15 @@ export default class App extends Component {
             <Players />
           </Route>
 
+          <Route path="/match">
+            <Match />
+          </Route>
+
           <Route path="/">
             Ana Sayfa
           </Route>
         </Switch>
       </Router>
-    );
+    )
   }
 }

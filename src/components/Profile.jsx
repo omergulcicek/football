@@ -55,8 +55,6 @@ export default class Profile extends Component {
       .then(res => res.json())
       .then(
         r => {
-          console.log(r.skills[0].data)
-
           this.setState({
             id: r.id,
             fullname: r.fullname,
@@ -131,8 +129,6 @@ export default class Profile extends Component {
               legend={legend}
             />
         }
-
-        
 
         {
          position === "Kaleci"

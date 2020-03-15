@@ -97,3 +97,50 @@
   padding: 6px 8px;
   text-align: left;
 }
+
+.card.is-small {
+  background-image: url("./img/card-mini.png");
+  position: absolute;
+  transform: scale(0.45);
+  z-index: 1;
+}
+
+.card.is-small header {
+  left: 45px;
+  top: 115px;
+}
+
+.card.is-small main img {
+  left: 105px;
+  top: 85px;
+  width: 204px;
+}
+
+.card.is-small main h1 {
+  top: 275px;
+}
+
+.card.is-small.gk {
+  top: 460px;
+  left: 120px;
+}
+
+.card.is-small.df {
+  top: 250px;
+  left: 120px;
+}
+
+.card.is-small.md {
+  top: 55px;
+  left: 0px;
+}
+
+.card.is-small.st {
+  top: -25px;
+  left: 300px;
+}
+
+.card.is-small:last-child {
+  top: -150px;
+  left: 130px;
+}
