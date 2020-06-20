@@ -1,147 +1,97 @@
 body {
-  background-color: #222;
-  color: #fff;
-  font-family: "Ubuntu", sans-serif;
+  background-color: #f5f5f5;
+  font-family: "Inter";
   margin: 0;
-  user-select: none;
 }
 
-.player-item {
-  align-items: center;
-  color: #fff;
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-  max-width: 750px;
-  opacity: .9;
-  padding: 12px;
-  text-decoration: none;
-  transition: .3;
-  width: 90%;
-}
-
-.player-item:hover {
-  opacity: 1;
-  transform: scale(1.025);
-}
-
-.player-item h1 {
-  font-size: 40px;
-}
-
-.kaleci {
-  background-color: #ffca28;
-}
-
-.defans {
-  background-color: #2196f3;
-}
-
-.ortasaha {
-  background-color: #23d160;
-}
-
-.forvet {
-  background-color: #f44336;
-}
-
-.graph {
-  grid-area: graph;
-}
-
-.shape{fill-opacity:.95!important}
-.shape:hover{fill-opacity:.8!important}
-
-.info {
-  grid-area: info;
-}
-
-.info > div {
-  margin-bottom: 4px;
-}
-
-.info > p {
-  line-height: 1.7;
-  margin-bottom: 24px;
-  width: 90%;
-}
-
-.info .icons {
-  align-items: center;
-  display: inline-flex;
-}
-
-.info .icons .fa,
-.info .icons strong {
-  align-items: center;
-  display: inline-flex;
-  font-size: 24px;
-  height: 40px;
-  justify-content: flex-end;
-  margin-right: 16px;
-  width: 56px;
-}
-
-.info .icons p {
-  font-size: 14px;
-  display: inline-block;
+figure {
   margin: 0;
-  white-space: nowrap;
 }
 
-.info mark {
-  background-color: #f3c42b;
-  padding: 3px 1px;
-}
-
-.info .trophy .fa {
-  width: auto;
-}
-
-.info .ballondor,
-.info .ballondor .fa {
-  color: #FFD700;
-}
-
-.info .besteurope,
-.info .besteurope .fa {
-  color: #C0C0C0;
-}
-
-.info .teamoftheyear,
-.info .teamoftheyear .fa {
-  color: #50c878;
-}
-
-.info .goldenboy .fa,
-.info .goldenboy p {
-  color: #70d1f4;
-}
-
-.profile {
+.player-list article {
+  align-items: center;
+  background: #1FA2FF;
+  background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+  border-radius: 4px;
+  color: #fff;
   display: grid;
-  grid-column-gap: 40px;
-  grid-template-columns: 380px auto;
-  grid-template-rows: 300px 500px auto;
-  grid-template-areas: 
-    "card graph"
-    "card info"
-    "pagination pagination";
-  justify-content: center;
+  grid-template-areas:
+    "figure info graph"
+    "figure skills graph";
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: space-around;
+  margin: 8px auto 8px;
+  max-width: 1200px;
+  text-align: center;
+  transition: 100ms ease-in;
+  user-select: none;
+  width: 80%;
 }
 
-.pagination {
+.player-list article:hover {
+  transform: scale(1.01);
+}
+
+.player-list article .figure {
+  grid-area: figure;
+}
+
+.player-list article .figure figure {
+  align-items: center;
   display: flex;
-  grid-area: pagination;
-  justify-content: space-between;
-  padding: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
 }
 
-.pagination a {
-  color: #fff;
+.player-list article .figure figure img:nth-child(2) {
+  margin-left: 8px;
 }
 
-.caption {
-  fill: #fff !important;
-  text-shadow: none !important;
+.player-list article .info {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  grid-area: info;
+  height: 100%;
+  justify-content: flex-end;
+  text-shadow: 0 1px 4px rgba(0 0 0 / 0.5);
 }
+
+.player-list article .info .name {
+  color: #232526;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.player-list article .skills {
+  grid-area: skills;
+}
+
+.player-list article .skills table {
+  font-size: 16px;
+  margin: auto;
+  text-align: left;
+  text-shadow: 0 1px 4px rgba(0 0 0 / 0.5);
+  width: 60%;
+}
+
+.player-list article .skills table td {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.player-list article .skills table td strong {
+  margin-right: 4px;
+}
+
+.player-list article .graph {
+  background: #232526; 
+  background: linear-gradient(to right, #414345, #232526);
+  grid-area: graph;
+  padding: 24px;
+}
+
+.graph .shape{fill-opacity:.95}
+.graph .shape:hover{fill-opacity:.8}
+.graph .caption {fill:#fff;text-shadow: none;}
