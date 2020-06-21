@@ -18,10 +18,10 @@ figure {
   grid-template-areas:
     "figure info graph"
     "figure skills graph";
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 3fr 1fr;
   justify-content: space-around;
   margin: 8px auto 8px;
-  max-width: 1200px;
+  max-width: 1400px;
   text-align: center;
   transition: 100ms ease-in;
   user-select: none;
@@ -45,6 +45,22 @@ figure {
 
 .player-list article .figure figure img:nth-child(2) {
   margin-left: 8px;
+}
+
+.player-list article .figure svg {
+  margin: 4px 2px;
+}
+
+.player-list article .figure .teamoftheyear {
+  align-items: center;
+  border: 1px solid rgba(0 0 0 / 0.25);
+  border-radius: 100%;
+  display: inline-flex;
+  height: 24px;
+  justify-content: center;
+  margin-top: 2px;
+  padding: 4px;
+  width: 24px;
 }
 
 .player-list article .info {
@@ -89,7 +105,7 @@ figure {
   background: #232526; 
   background: linear-gradient(to right, #414345, #232526);
   grid-area: graph;
-  padding: 24px;
+  padding: 36px 24px;
 }
 
 .graph .shape{fill-opacity:.95}
