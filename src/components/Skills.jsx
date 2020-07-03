@@ -13,7 +13,7 @@ export default function Skills({skills, position}) {
 
   return (
 
-    position !== "Goalkeeper"
+    position !== "GK"
       ? <table>
           <tbody>
             <tr>

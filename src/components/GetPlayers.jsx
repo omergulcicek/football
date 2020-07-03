@@ -10,7 +10,7 @@ export default function getPlayers() {
   let result = []
   list.map(({name, picture, team, country, position, rating, skills, ballondor, besteurope, teamoftheyear, goldenboy}, i) => 
   result.push(
-    <article name={name} key={i}>
+    <article name={name} position={position} key={i}>
       <div className="figure">
         <figure>
           <img src={require(`../img/player/${picture}.png`)} alt={name} width="160" />

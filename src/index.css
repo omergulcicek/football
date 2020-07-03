@@ -102,12 +102,10 @@ figure {
 }
 
 .player-list article .graph {
-  background: #232526; 
-  background: linear-gradient(to right, #414345, #232526);
   grid-area: graph;
   padding: 36px 24px;
 }
 
 .graph .shape{fill-opacity:.95}
 .graph .shape:hover{fill-opacity:.8}
-.graph .caption {fill:#fff;text-shadow: none;}
+.graph .caption {fill:#fff;text-shadow: 0 0 4px rgba(0 0 0 / 0.5)}

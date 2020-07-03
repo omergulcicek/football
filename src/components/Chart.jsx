@@ -7,7 +7,7 @@ function Chart({skills, position}) {
   const pos = position
   
   let captions
-  pos !== "Goalkeeper"
+  pos !== "GK"
   ? captions = {
     defending: "Defans",
     physical: "Fizik",
