@@ -14,7 +14,7 @@ function Chart({skills, position}) {
     speed: "Hız",
     vision: "Vizyon",
     attacking: "Atak",
-    technical: "Teknik",
+    passing: "Pas",
     heading: "Hava",
     mental: "Zihinsel",
   }

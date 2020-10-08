@@ -1,111 +1,79 @@
 body {
   background-color: #f5f5f5;
-  font-family: "Inter";
+  font-family: "Rubik";
   margin: 0;
+  padding: 24px;
+}
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 figure {
   margin: 0;
 }
 
-.player-list article {
+article {
   align-items: center;
-  background: #1FA2FF;
-  background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
-  border-radius: 4px;
-  color: #fff;
-  display: grid;
-  grid-template-areas:
-    "figure info graph"
-    "figure skills graph";
-  grid-template-columns: 2fr 3fr 1fr;
+  border-bottom: 1px dashed rgba(27, 27, 27, 0.2);
+  color: #1B1B1B;
+  display: inline-flex;
   justify-content: space-around;
-  margin: 8px auto 8px;
-  max-width: 1400px;
+  margin-bottom: 24px;
+  min-width: 800px;
+  position: relative;
   text-align: center;
-  transition: 100ms ease-in;
+  transition: 40ms ease-in;
   user-select: none;
   width: 80%;
 }
 
-.player-list article:hover {
+article:hover {
   transform: scale(1.01);
 }
 
-.player-list article .figure {
-  grid-area: figure;
+img {
+  pointer-events: none;
+  user-select: none;
 }
 
-.player-list article .figure figure {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 24px;
+.picture {
+  z-index: 2;
 }
 
-.player-list article .figure figure img:nth-child(2) {
-  margin-left: 8px;
+.rating {
+  font-size: 180px;
+  margin: 0;
+  left: 160px;
+  opacity: 0.1;
+  position: absolute;
+  top: -5px;
+  z-index: 1;
 }
 
-.player-list article .figure svg {
-  margin: 4px 2px;
+.team {
+  left: 0;
+  position: absolute;
+  top: 64px;
+  z-index: -1;
 }
 
-.player-list article .figure .teamoftheyear {
-  align-items: center;
-  border: 1px solid rgba(0 0 0 / 0.25);
-  border-radius: 100%;
-  display: inline-flex;
-  height: 24px;
-  justify-content: center;
-  margin-top: 2px;
-  padding: 4px;
-  width: 24px;
+.player-list .shape {
+  fill-opacity:.95
 }
 
-.player-list article .info {
-  display: flex;
-  flex-direction: column;
-  font-size: 40px;
-  grid-area: info;
-  height: 100%;
-  justify-content: flex-end;
-  text-shadow: 0 1px 4px rgba(0 0 0 / 0.5);
+.player-list .shape:hover {
+  fill-opacity:.8
 }
 
-.player-list article .info .name {
-  color: #232526;
-  display: block;
-  font-weight: bold;
-  margin-bottom: 8px;
+.player-list text {
+  font-family: "Rubik";
 }
 
-.player-list article .skills {
-  grid-area: skills;
+@media screen and (min-width: 1600px) { 
+  article {
+    width: 40%;
+  }
 }
-
-.player-list article .skills table {
-  font-size: 16px;
-  margin: auto;
-  text-align: left;
-  text-shadow: 0 1px 4px rgba(0 0 0 / 0.5);
-  width: 60%;
-}
-
-.player-list article .skills table td {
-  padding-bottom: 8px;
-  padding-top: 8px;
-}
-
-.player-list article .skills table td strong {
-  margin-right: 4px;
-}
-
-.player-list article .graph {
-  grid-area: graph;
-  padding: 36px 24px;
-}
-
-.graph .shape{fill-opacity:.95}
-.graph .shape:hover{fill-opacity:.8}
-.graph .caption {fill:#fff;text-shadow: 0 0 4px rgba(0 0 0 / 0.5)}
