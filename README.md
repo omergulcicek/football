@@ -1,1 +1,1 @@
-![Lewandowski](https://i.hizliresim.com/leJwP2.png)
+![Futbolcular](https://i.hizliresim.com/mEWPFd.png)
