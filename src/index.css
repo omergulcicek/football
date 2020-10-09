@@ -41,6 +41,9 @@ img {
 
 .picture {
   z-index: 2;
+  position: relative;
+  left: 16px;
+  top: 40px;
 }
 
 .rating {
