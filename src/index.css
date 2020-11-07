@@ -30,13 +30,16 @@ article {
   width: 80%;
 }
 
-article:hover {
-  transform: scale(1.01);
+.name,
+.rating,
+.league {
+  transition: 400ms ease-in;
 }
 
 img {
-  pointer-events: none;
+  max-width: 100%;
   user-select: none;
+  pointer-events: none;
 }
 
 .picture {
@@ -46,21 +49,32 @@ img {
   top: 40px;
 }
 
+.rating,
+.team {
+  position: absolute;
+}
+
 .rating {
   font-size: 180px;
   margin: 0;
   left: 160px;
   opacity: 0.1;
-  position: absolute;
   top: -5px;
   z-index: 1;
 }
 
 .team {
   left: 0;
-  position: absolute;
   top: 64px;
   z-index: -1;
+}
+
+article:hover .rating {
+  left: 200px;
+}
+
+article:hover .name {
+  transform: translateY(64px)
 }
 
 .player-list .shape {
