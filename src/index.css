@@ -80,3 +80,9 @@ img {
     width: 40%;
   }
 }
+
+@media screen and (min-width: 2440px) { 
+  article {
+    width: 30%;
+  }
+}
