@@ -31,7 +31,7 @@ function Chart({skills, position}) {
   
   const defaultOptions = {
     size: 200,
-    scales: 20,
+    scales: 5,
     captionMargin: 10,
     zoomDistance: 1.3,
     captionProps: () => ({

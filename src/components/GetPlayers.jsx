@@ -3,7 +3,7 @@ import Chart from "./../components/Chart"
 import allPlayer from "./../players.json"
 
 export default function getPlayers() {
-  const list = allPlayer.players.filter(e => e.legend).sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
+  const list = allPlayer.players.filter(e => !e.legend).sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
 
   let result = []
   list.map(({fullname, name, country, team, position, rating, skills}, i) => 
@@ -41,4 +41,22 @@ function toKebabCase(url) {
     .replace(/-+/g,'-')
     .replace(/^-*/,'')
     .replace(/-*$/,'');
+}
+
+function convertLeagueName(league) {
+  switch (league) {
+    case "England": return "Premier League"; break;
+    case "Spain": return "LaLiga"; break;
+    case "Italy": return "Serie A"; break;
+    case "Germany": return "Bundesliga"; break;
+    case "France": return "Ligue 1"; break;
+    case "Turkey": return "Spor Toto Süper Lig"; break;
+    case "Holland": return "Eredivisie"; break;
+    case "Portugal": return "Liga NOS"; break;
+    case "Croatia": return "Croatian First League"; break;
+    case "China": return "CSL"; break;
+    case "Argentina": return "Super Liga Argentina"; break;
+  
+    default: return league; break;
+  }
 }
