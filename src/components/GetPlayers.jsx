@@ -32,22 +32,22 @@ export default function getPlayers() {
     else if (pos === "#23d160") {
       table.push(
       <>
-        <span className={getColor(d.defending * 100)}><small>Defans</small> {Math.round(d.defending * 100)}</span>
         <span className={getColor(d.speed * 100)}><small>Hız</small> {Math.round(d.speed * 100)}</span>
         <span className={getColor(d.vision * 100)}><small>Vizyon</small> {Math.round(d.vision * 100)}</span>
         <span className={getColor(d.attacking * 100)}><small>Şut</small> {Math.round(d.attacking * 100)}</span>
         <span className={getColor(d.passing * 100)}><small>Pas</small> {Math.round(d.passing * 100)}</span>
+        <span className={getColor(d.defending * 100)}><small>Defans</small> {Math.round(d.defending * 100)}</span>
       </>
       )
     }
     else if (pos === "#2196f3") {
       table.push(
       <>
-        <span className={getColor(d.defending * 100)}><small>Defans</small> {Math.round(d.defending * 100)}</span>
-        <span className={getColor(d.physical * 100)}><small>Fizik</small> {Math.round(d.physical * 100)}</span>
-        <span className={getColor(d.heading * 100)}><small>Kafa</small> {Math.round(d.heading * 100)}</span>
         <span className={getColor(d.speed * 100)}><small>Hız</small> {Math.round(d.speed * 100)}</span>
+        <span className={getColor(d.physical * 100)}><small>Fizik</small> {Math.round(d.physical * 100)}</span>
+        <span className={getColor(d.defending * 100)}><small>Defans</small> {Math.round(d.defending * 100)}</span>
         <span className={getColor(d.passing * 100)}><small>Pas</small> {Math.round(d.passing * 100)}</span>
+        <span className={getColor(d.heading * 100)}><small>Kafa</small> {Math.round(d.heading * 100)}</span>
       </>
       )
     }
