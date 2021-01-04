@@ -2,6 +2,15 @@ import React from "react"
 import Chart from "./../components/Chart"
 import allPlayer from "./../players.json"
 
+export function getSkills(name, value) {
+  return <span className={getColor(value * 100)}><small>{name}</small> {Math.round(value * 100)}</span>
+}
+
+export function getColor(num) {
+  if(num >= 95) return "best";
+  else if(num >= 90) return "second";
+}
+
 export default function getPlayers() {
   const list = allPlayer.players.filter(e => !e.legend).sort((a, b) => (a.rating > b.rating) ? 1 : -1).reverse()
 
@@ -11,54 +20,49 @@ export default function getPlayers() {
     const pos = skills[0].meta.color;
     let table = [];
 
-    function getColor(num) {
-      if(num >= 95) return "best";
-      else if(num >= 90) return "second";
-    }
-
     const d = skills[0].data;
 
     if (pos === "#f44336") {
       table.push(
       <>
-        <span className={getColor(d.speed * 100)}><small>Hız</small> {Math.round(d.speed * 100)}</span>
-        <span className={getColor(d.vision * 100)}><small>Vizyon</small> {Math.round(d.vision * 100)}</span>
-        <span className={getColor(d.attacking * 100)}><small>Şut</small> {Math.round(d.attacking * 100)}</span>
-        <span className={getColor(d.passing * 100)}><small>Pas</small> {Math.round(d.passing * 100)}</span>
-        <span className={getColor(d.heading * 100)}><small>Kafa</small> {Math.round(d.heading * 100)}</span>
+        {getSkills("Hız", d.speed)}
+        {getSkills("Vizyon", d.vision)}
+        {getSkills("Şut", d.attacking)}
+        {getSkills("Pas", d.passing)}
+        {getSkills("Kafa", d.heading)}
       </>
       )
     }
     else if (pos === "#23d160") {
       table.push(
       <>
-        <span className={getColor(d.speed * 100)}><small>Hız</small> {Math.round(d.speed * 100)}</span>
-        <span className={getColor(d.vision * 100)}><small>Vizyon</small> {Math.round(d.vision * 100)}</span>
-        <span className={getColor(d.attacking * 100)}><small>Şut</small> {Math.round(d.attacking * 100)}</span>
-        <span className={getColor(d.passing * 100)}><small>Pas</small> {Math.round(d.passing * 100)}</span>
-        <span className={getColor(d.defending * 100)}><small>Defans</small> {Math.round(d.defending * 100)}</span>
+        {getSkills("Hız", d.speed)}
+        {getSkills("Vizyon", d.vision)}
+        {getSkills("Şut", d.attacking)}
+        {getSkills("Pas", d.passing)}
+        {getSkills("Defans", d.defending)}
       </>
       )
     }
     else if (pos === "#2196f3") {
       table.push(
       <>
-        <span className={getColor(d.speed * 100)}><small>Hız</small> {Math.round(d.speed * 100)}</span>
-        <span className={getColor(d.physical * 100)}><small>Fizik</small> {Math.round(d.physical * 100)}</span>
-        <span className={getColor(d.defending * 100)}><small>Defans</small> {Math.round(d.defending * 100)}</span>
-        <span className={getColor(d.passing * 100)}><small>Pas</small> {Math.round(d.passing * 100)}</span>
-        <span className={getColor(d.heading * 100)}><small>Kafa</small> {Math.round(d.heading * 100)}</span>
+        {getSkills("Hız", d.speed)}
+        {getSkills("Fizik", d.physical)}
+        {getSkills("Defans", d.defending)}
+        {getSkills("Pas", d.passing)}
+        {getSkills("Kafa", d.heading)}
       </>
       )
     }
     else {
       table.push(
       <>
-        <span className={getColor(d.shotStopping * 100)}><small>Birebir</small> {Math.round(d.shotStopping * 100)}</span>
-        <span className={getColor(d.communication * 100)}><small>İletişim</small> {Math.round(d.communication * 100)}</span>
-        <span className={getColor(d.offensive * 100)}><small>Ofansif</small> {Math.round(d.offensive * 100)}</span>
-        <span className={getColor(d.heading * 100)}><small>Zıplama</small> {Math.round(d.heading * 100)}</span>
-        <span className={getColor(d.distribution * 100)}><small>Degaj</small> {Math.round(d.distribution * 100)}</span>
+        {getSkills("Birebir", d.shotStopping)}
+        {getSkills("İletişim", d.communication)}
+        {getSkills("Ofansif", d.offensive)}
+        {getSkills("Zıplama", d.heading)}
+        {getSkills("Degaj", d.distribution)}
       </>
       )
     }
