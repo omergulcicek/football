@@ -16,18 +16,47 @@ figure {
 }
 
 article {
-  align-items: center;
   border-bottom: 1px dashed rgba(27, 27, 27, 0.2);
+  margin-bottom: 24px;
+  min-width: 800px;
+  padding-bottom: 32px;
+  position: relative;
+  width: 80%;
+}
+
+article .info {
+  align-items: center;
   color: #1B1B1B;
   display: inline-flex;
   justify-content: space-around;
-  margin-bottom: 24px;
-  min-width: 800px;
-  position: relative;
   text-align: center;
   transition: 40ms ease-in;
   user-select: none;
-  width: 80%;
+  width: 100%;
+}
+
+article .skills {
+  display: flex;
+  margin-top: 8px;
+}
+
+article .skills span {
+  background-color: #fbb206;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;;
+  display: inline-block;
+  margin-right: 8px;
+  width: 20%;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+article .skills span.best {
+  background-color: #02fec5;
+}
+
+article .skills span.second {
+  background-color: #a8fe02;
 }
 
 .name,
