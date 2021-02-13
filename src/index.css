@@ -1,131 +1,29 @@
 body {
-  background-color: #f5f5f5;
-  font-family: "Rubik";
+  background-color: #efefef;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
   margin: 0;
-  padding: 24px;
+  padding-bottom: 1600px;
 }
 
-.player-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-figure {
-  margin: 0;
+.shape {
+  fill-opacity: 1 !important;
+  stroke-width: 0;
 }
 
 article {
-  border-bottom: 1px dashed rgba(27, 27, 27, 0.2);
-  margin-bottom: 24px;
-  min-width: 800px;
-  padding-bottom: 32px;
-  position: relative;
-  width: 80%;
-}
-
-article .info {
-  align-items: center;
-  color: #1B1B1B;
-  display: inline-flex;
-  justify-content: space-around;
-  text-align: center;
-  transition: 40ms ease-in;
-  user-select: none;
-  width: 100%;
-}
-
-article .skills {
-  display: flex;
-  margin-top: 8px;
-}
-
-article .skills span {
-  background-color: #fbb206;
+  background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 4px;;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  margin-right: 8px;
-  width: 20%;
-  padding: 4px 8px;
+  margin: 40px 24px;
+  padding-bottom: 24px;
+  padding-top: 40px;
+  width: 400px;
   text-align: center;
 }
 
-article .skills span.best {
-  background-color: #02fec5;
-}
-
-article .skills span.second {
-  background-color: #a8fe02;
-}
-
-.name,
-.rating,
-.league {
-  transition: 400ms ease-in;
-}
-
-img {
-  max-width: 100%;
-  user-select: none;
-  pointer-events: none;
-}
-
-.picture {
-  z-index: 2;
-  position: relative;
-  left: 16px;
-  top: 40px;
-}
-
-.rating,
-.team {
-  position: absolute;
-}
-
-.rating {
-  font-size: 180px;
-  margin: 0;
-  left: 160px;
-  opacity: 0.1;
-  top: -5px;
-  z-index: 1;
-}
-
-.team {
-  left: 0;
-  top: 64px;
-  z-index: -1;
-}
-
-article:hover .rating {
-  left: 200px;
-}
-
-article:hover .name {
-  transform: translateY(64px)
-}
-
-.player-list .shape {
-  fill-opacity:.95
-}
-
-.player-list .shape:hover {
-  fill-opacity:.8
-}
-
-.player-list text {
-  font-family: "Rubik";
-}
-
-@media screen and (min-width: 1600px) { 
-  article {
-    width: 40%;
-  }
-}
-
-@media screen and (min-width: 2440px) { 
-  article {
-    width: 30%;
-  }
+article div {
+  margin-bottom: 24px;
 }
