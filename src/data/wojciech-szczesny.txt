@@ -1,0 +1,1 @@
+{"id":40,"fullname":"Wojciech Szczęsny","name":"wojciech-szczesny","birthday":"18/04/1990","height":195,"foot":"Right","country":"Poland","league":"Italy Serie A","team":"Piemonte Calcio","position":"GK","value":0,"rating":87,"ability":{"currently":0,"potential":0},"skills":{"diving":86,"handling":82,"kicking":73,"reflexes":88,"speed":47,"positioning":87}}

@@ -1,0 +1,1 @@
+{"id":116,"fullname":"Kasper Schmeichel","name":"kasper-schmeichel","birthday":"05/11/1986","height":189,"foot":"Right","country":"Denmark","league":"England Premier League","team":"Leicester City","position":"GK","value":0,"rating":84,"ability":{"currently":0,"potential":0},"skills":{"diving":82,"handling":77,"kicking":83,"reflexes":89,"speed":58,"positioning":79}}

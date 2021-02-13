@@ -1,0 +1,1 @@
+{"id":129,"fullname":"Steve Mandanda","name":"steve-mandanda","birthday":"28/03/1985","height":185,"foot":"Right","country":"France","league":"France Ligue 1","team":"Olympique de Marseille","position":"GK","value":0,"rating":83,"ability":{"currently":0,"potential":0},"skills":{"diving":81,"handling":81,"kicking":78,"reflexes":84,"speed":43,"positioning":81}}

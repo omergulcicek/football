@@ -1,0 +1,1 @@
+{"id":117,"fullname":"Rui Patrício","name":"rui-patricio","birthday":"15/02/1988","height":190,"foot":"Left","country":"Portugal","league":"England Premier League","team":"Wolverhampton Wanderers","position":"GK","value":0,"rating":84,"ability":{"currently":0,"potential":0},"skills":{"diving":84,"handling":80,"kicking":77,"reflexes":83,"speed":57,"positioning":82}}

@@ -1,0 +1,1 @@
+{"id":503,"fullname":"David De Gea","name":"david-de-gea","birthday":"07/11/1990","height":192,"foot":"Right","country":"Spain","league":"England Premier League","team":"Manchester United","position":"GK","value":0,"rating":89,"ability":{"currently":0,"potential":0},"skills":{"diving":90,"handling":84,"kicking":81,"reflexes":92,"speed":58,"positioning":85}}

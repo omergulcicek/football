@@ -1,0 +1,1 @@
+{"id":926,"fullname":"Alban Lafont","name":"alban-lafont","birthday":"23/01/1999","height":193,"foot":"Right","country":"France","league":"France Ligue 1","team":"FC Nantes","position":"GK","value":0,"rating":78,"ability":{"currently":0,"potential":0},"skills":{"diving":79,"handling":76,"kicking":70,"reflexes":82,"speed":45,"positioning":75}}

@@ -1,0 +1,1 @@
+{"id":6,"fullname":"Jan Oblak","name":"jan-oblak","birthday":"07/01/1993","height":188,"foot":"Right","country":"Slovenia","league":"Spain Primera División","team":"Atlético de Madrid","position":"GK","value":0,"rating":91,"ability":{"currently":0,"potential":0},"skills":{"diving":87,"handling":92,"kicking":78,"reflexes":90,"speed":60,"positioning":90}}

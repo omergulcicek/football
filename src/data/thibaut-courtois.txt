@@ -1,0 +1,1 @@
+{"id":18,"fullname":"Thibaut Courtois","name":"thibaut-courtois","birthday":"11/05/1992","height":199,"foot":"Left","country":"Belgium","league":"Spain Primera División","team":"Real Madrid","position":"GK","value":0,"rating":89,"ability":{"currently":0,"potential":0},"skills":{"diving":84,"handling":89,"kicking":74,"reflexes":88,"speed":52,"positioning":85}}

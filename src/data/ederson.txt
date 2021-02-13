@@ -1,0 +1,1 @@
+{"id":25,"fullname":"Ederson","name":"ederson","birthday":"17/08/1993","height":188,"foot":"Left","country":"Brazil","league":"England Premier League","team":"Manchester City","position":"GK","value":0,"rating":88,"ability":{"currently":0,"potential":0},"skills":{"diving":86,"handling":82,"kicking":93,"reflexes":88,"speed":63,"positioning":86}}

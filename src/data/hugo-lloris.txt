@@ -1,0 +1,1 @@
+{"id":48,"fullname":"Hugo Lloris","name":"hugo-lloris","birthday":"26/12/1986","height":188,"foot":"Left","country":"France","league":"England Premier League","team":"Tottenham Hotspur","position":"GK","value":0,"rating":87,"ability":{"currently":0,"potential":0},"skills":{"diving":89,"handling":82,"kicking":68,"reflexes":90,"speed":62,"positioning":84}}

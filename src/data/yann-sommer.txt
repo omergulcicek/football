@@ -1,0 +1,1 @@
+{"id":62,"fullname":"Yann Sommer","name":"yann-sommer","birthday":"17/12/1988","height":183,"foot":"Right","country":"Switzerland","league":"Germany 1. Bundesliga","team":"Borussia M'gladbach","position":"GK","value":0,"rating":86,"ability":{"currently":0,"potential":0},"skills":{"diving":80,"handling":86,"kicking":85,"reflexes":85,"speed":54,"positioning":87}}

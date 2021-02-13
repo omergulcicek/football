@@ -1,0 +1,1 @@
+{"id":536,"fullname":"Gianluigi Buffon","name":"gianluigi-buffon","birthday":"28/01/1978","height":192,"foot":"Right","country":"Italy","league":"Italy Serie A","team":"Piemonte Calcio","position":"GK","value":0,"rating":82,"ability":{"currently":0,"potential":0},"skills":{"diving":77,"handling":76,"kicking":74,"reflexes":78,"speed":30,"positioning":91}}

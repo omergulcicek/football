@@ -1,0 +1,1 @@
+{"id":604,"fullname":"Jordan Pickford","name":"jordan-pickford","birthday":"07/03/1994","height":185,"foot":"Left","country":"England","league":"England Premier League","team":"Everton","position":"GK","value":0,"rating":81,"ability":{"currently":0,"potential":0},"skills":{"diving":81,"handling":77,"kicking":87,"reflexes":85,"speed":44,"positioning":77}}

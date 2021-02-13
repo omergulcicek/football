@@ -1,0 +1,1 @@
+{"id":88,"fullname":"Bernd Leno","name":"bernd-leno","birthday":"04/03/1992","height":190,"foot":"Right","country":"Germany","league":"England Premier League","team":"Arsenal","position":"GK","value":0,"rating":85,"ability":{"currently":0,"potential":0},"skills":{"diving":85,"handling":83,"kicking":80,"reflexes":86,"speed":56,"positioning":84}}

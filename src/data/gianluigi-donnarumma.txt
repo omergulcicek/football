@@ -1,0 +1,1 @@
+{"id":71,"fullname":"Gianluigi Donnarumma","name":"gianluigi-donnarumma","birthday":"25/02/1999","height":196,"foot":"Right","country":"Italy","league":"Italy Serie A","team":"Milan","position":"GK","value":0,"rating":85,"ability":{"currently":0,"potential":0},"skills":{"diving":89,"handling":81,"kicking":76,"reflexes":89,"speed":54,"positioning":83}}

@@ -1,0 +1,1 @@
+{"id":957,"fullname":"Alex Meret","name":"alex-meret","birthday":"22/03/1997","height":190,"foot":"Left","country":"Italy","league":"Italy Serie A","team":"Napoli","position":"GK","value":0,"rating":78,"ability":{"currently":0,"potential":0},"skills":{"diving":79,"handling":74,"kicking":70,"reflexes":82,"speed":48,"positioning":77}}

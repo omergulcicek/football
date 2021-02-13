@@ -1,0 +1,1 @@
+{"id":45,"fullname":"Keylor Navas","name":"keylor-navas","birthday":"15/12/1986","height":185,"foot":"Right","country":"Costa Rica","league":"France Ligue 1","team":"Paris Saint-Germain","position":"GK","value":0,"rating":87,"ability":{"currently":0,"potential":0},"skills":{"diving":90,"handling":81,"kicking":75,"reflexes":90,"speed":53,"positioning":82}}
