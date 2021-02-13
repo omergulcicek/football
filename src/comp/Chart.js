@@ -83,7 +83,7 @@ export default function App({obj}) {
     infos[0].data.vision = obj.skills.passing.vision / 100
     infos[0].data.ballControl = obj.skills.dribbling.ballControl / 100
     infos[0].data.heading = obj.skills.defense.heading / 100
-    infos[0].data.crossing = obj.skills.passing.crossing / 100
+    infos[0].data.attacking = obj.skills.attacking.index / 100
     infos[0].data.defAwareness = obj.skills.defense.defAwareness / 100
 
     captions = {
@@ -91,7 +91,7 @@ export default function App({obj}) {
       physical: 'Fiziksel',
       pace: 'Hız',
       vision: 'Vizyon',
-      crossing: "Orta Açma",
+      attacking: "Ofansif",
       ballControl: 'Teknik',
       heading: 'Hava',
       defAwareness: "Farkındalıklık"

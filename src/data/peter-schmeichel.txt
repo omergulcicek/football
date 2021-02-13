@@ -1,0 +1,1 @@
+{"id":17073,"fullname":"Peter Schmeichel","name":"peter-schmeichel","height":null,"foot":"ICON","country":"Denmark","league":"Icons","team":"Icons","position":"GK","value":0,"rating":92,"ability":{"currently":0,"potential":0},"skills":{"diving":92,"handling":87,"kicking":88,"reflexes":94,"speed":52,"positioning":90}}

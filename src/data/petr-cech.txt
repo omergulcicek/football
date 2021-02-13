@@ -1,0 +1,1 @@
+{"id":20904,"fullname":"Petr Čech","name":"petr-cech","birthday":"01/01/2000","height":196,"foot":"Left","country":"Czech Republic","league":"Icons","team":"FUT 21 ICONS","position":"GK","value":0,"rating":91,"ability":{"currently":0,"potential":0},"skills":{"diving":89,"handling":88,"kicking":80,"reflexes":91,"speed":55,"positioning":92}}
