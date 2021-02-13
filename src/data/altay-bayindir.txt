@@ -1,0 +1,1 @@
+{"id":3356,"fullname":"Altay Bayındır","name":"altay-bayindir","birthday":"01/01/2000","height":198,"foot":"Right","country":"Turkey","league":"Turkey Süper Lig","team":"Fenerbahçe","position":"GK","value":0,"rating":73,"ability":{"currently":0,"potential":0},"skills":{"diving":77,"handling":69,"kicking":68,"reflexes":80,"speed":23,"positioning":69}}

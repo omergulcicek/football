@@ -1,0 +1,1 @@
+{"id":1018,"fullname":"Mert Günok","name":"mert-gunok","birthday":"01/03/1989","height":196,"foot":"Right","country":"Turkey","league":"Turkey Süper Lig","team":"Istanbul Başakşehir FK","position":"GK","value":0,"rating":77,"ability":{"currently":0,"potential":0},"skills":{"diving":73,"handling":72,"kicking":81,"reflexes":82,"speed":57,"positioning":80}}

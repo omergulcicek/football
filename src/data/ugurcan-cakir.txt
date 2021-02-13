@@ -1,0 +1,1 @@
+{"id":1554,"fullname":"Uğurcan Çakır","name":"ugurcan-cakir","birthday":"01/01/2000","height":191,"foot":"Right","country":"Turkey","league":"Turkey Süper Lig","team":"Trabzonspor","position":"GK","value":0,"rating":77,"ability":{"currently":0,"potential":0},"skills":{"diving":75,"handling":73,"kicking":70,"reflexes":80,"speed":56,"positioning":76}}

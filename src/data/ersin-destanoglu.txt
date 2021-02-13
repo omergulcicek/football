@@ -1,0 +1,1 @@
+{"id":8415,"fullname":"Ersin Destanoğlu","name":"ersin-destanoglu","birthday":"01/01/2000","height":195,"foot":"Right","country":"Turkey","league":"Turkey Süper Lig","team":"Beşiktaş","position":"GK","value":0,"rating":67,"ability":{"currently":0,"potential":0},"skills":{"diving":67,"handling":70,"kicking":58,"reflexes":74,"speed":15,"positioning":66}}
