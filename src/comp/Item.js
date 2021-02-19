@@ -10,9 +10,9 @@ export default function Item({obj}) {
           <small>{name}</small>
         </p>
         
-        {/* <figure>
+        <figure>
           <img src={require(`../img/player/${name}.png`).default} alt={name} width="240" height="240" />
-        </figure> */}
+        </figure>
 
         <figure>
           <img src={require(`../img/team/${team}.png`).default} alt={team} width="80" height="80" />
