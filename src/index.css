@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #efefef;
   font-family: "Inter", sans-serif;
@@ -11,19 +15,143 @@ body {
   stroke-width: 0;
 }
 
+figure {
+  margin: 0 16px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+text {
+  fill: rgba(255, 255, 255, 0.65);
+}
+
 article {
-  background-color: #fff;
+  background-image: linear-gradient(45deg, rgba(0,0,0,0.16) 24%, rgba(255, 255, 255, 0.08) 40%, transparent);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 40px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: pointer;
   display: inline-block;
-  margin: 40px 24px;
-  padding-bottom: 24px;
-  padding-top: 40px;
-  width: 400px;
+  margin: 12px;
+  padding: 40px 56px 16px;
+  position: relative;
+  transition: all 240ms;
+  user-select: none;
+  width: 480px;
+}
+
+article[position="GK"] {
+  background-color: #fbeb3a;
+}
+
+article[position="CB"],
+article[position="RB"],
+article[position="LB"] {
+  background-color: #4caf50;
+}
+
+article[position="CDM"],
+article[position="CM"],
+article[position="CAM"] {
+  background-color: #3596f3;
+}
+
+article[position="LW"],
+article[position="RW"],
+article[position="ST"],
+article[position="CF"] {
+  background-color: #f44336;
+}
+
+article {
+  background-color: #010101 !important;
+}
+
+article:hover {
+  transform: scale(1.02);
+}
+
+article h1 {
+  display: -webkit-box;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+  margin-top: 0;
+  min-height: 96px;
+  overflow: hidden;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+}
+
+article .country {
+  align-items: center;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+article .info {
+  align-items: center;
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+article .info div {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+article .info div:nth-child(2) {
+  align-items: center;
+}
+
+article .info div:last-child {
+  align-items: flex-end;
+}
+
+article .info div span {
+  display: block;
+  font-size: 20px;
+}
+
+article .info div span:last-child {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+article .rating {
+  color: rgba(223, 223, 223, 0.16);
+  font-size: 240px;
+  font-weight: 100;
+  position: absolute;
+  top: 140px;
+  right: 8px;
+  z-index: 0;
+}
+
+article .images {
+  display: flex;
+  margin-top: 64px;
   text-align: center;
 }
 
-article div {
-  margin-bottom: 24px;
+article .images figure:first-child {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+  left: 56px;
+  position: absolute;
+}
+
+article .images figure:last-child {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+article .graph {
+  margin-top: 24px;
+  text-align: center;
 }

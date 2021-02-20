@@ -3,12 +3,12 @@ import RadarChart from 'react-svg-radar-chart'
 import 'react-svg-radar-chart/build/css/index.css'
 
 const defaultOptions = {
-  size: 400,
+  size: 600,
   axes: true,
   scales: 5,
   captions: true,
   captionMargin: 24,
-  zoomDistance: 1.35,
+  zoomDistance: 1.45,
   captionProps: () => ({
     textAnchor: 'middle',
     fontSize: 14,
@@ -41,18 +41,18 @@ export default function App({obj}) {
     infos[0].data.reflexes = obj.skills.reflexes / 100
     infos[0].data.speed = obj.skills.speed / 100
     infos[0].data.positioning = obj.skills.positioning / 100
-    infos[0].data.kicking2 = 0.85
-    infos[0].data.kicking3 = 0.45
+    infos[0].data.aerial = 0.85
+    infos[0].data.communication = 0.45
 
     captions = {
-      handling: 'Birebir',
-      diving: 'Ani Çıkış',
-      speed: "Hız",
-      reflexes: 'Refleks',
-      kicking: 'Degaj',
-      kicking3: 'İletişim',
-      kicking2: 'Hava',
-      positioning: 'Pozisyon Alma'
+      handling: 'Shot Stopping',
+      diving: 'Diving',
+      speed: "Speed",
+      reflexes: 'Reflexes',
+      kicking: 'Kicking',
+      communication: 'Communication',
+      aerial: 'Aerial',
+      positioning: 'Positioning'
     }
   }
   else if (obj.position == "CB" || obj.position == "CDM") {
@@ -62,18 +62,18 @@ export default function App({obj}) {
     infos[0].data.vision = obj.skills.passing.vision / 100
     infos[0].data.attacking = obj.skills.attacking.index / 100
     infos[0].data.ballControl = obj.skills.dribbling.ballControl / 100
-    infos[0].data.heading = obj.skills.defense.heading / 100
+    infos[0].data.aerial = obj.skills.defense.heading / 100
     infos[0].data.defAwareness = obj.skills.defense.defAwareness / 100
 
     captions = {
-      defense: 'Top Kapma',
-      physical: 'Fiziksel',
-      pace: 'Hız',
-      vision: 'Vizyon',
-      attacking: "Ofansif",
-      ballControl: 'Teknik',
-      heading: 'Hava',
-      defAwareness: "Farkındalıklık"
+      defense: 'Defending',
+      physical: 'Physical',
+      pace: 'Speed',
+      vision: 'Vision',
+      attacking: "Attacking",
+      ballControl: 'Technical',
+      aerial: 'Aerial',
+      defAwareness: "Awareness"
     }
   }
   else if (obj.position == "LB" || obj.position == "RB") {
@@ -82,19 +82,19 @@ export default function App({obj}) {
     infos[0].data.pace = obj.skills.pace.index / 100
     infos[0].data.vision = obj.skills.passing.vision / 100
     infos[0].data.ballControl = obj.skills.dribbling.ballControl / 100
-    infos[0].data.heading = obj.skills.defense.heading / 100
+    infos[0].data.aerial = obj.skills.defense.heading / 100
     infos[0].data.attacking = obj.skills.attacking.index / 100
     infos[0].data.defAwareness = obj.skills.defense.defAwareness / 100
 
     captions = {
-      defense: 'Top Kapma',
-      physical: 'Fiziksel',
-      pace: 'Hız',
-      vision: 'Vizyon',
-      attacking: "Ofansif",
-      ballControl: 'Teknik',
-      heading: 'Hava',
-      defAwareness: "Farkındalıklık"
+      defense: "Defending",
+      physical: 'Physical',
+      pace: 'Speed',
+      vision: 'Vision',
+      attacking: "Attacking",
+      ballControl: 'Technical',
+      aerial: 'Aerial',
+      defAwareness: "Awareness"
     }
   }
   else if (obj.position == "CM" || obj.position == "CAM") {
@@ -104,18 +104,18 @@ export default function App({obj}) {
     infos[0].data.vision = obj.skills.passing.vision / 100
     infos[0].data.attacking = obj.skills.attacking.index / 100
     infos[0].data.ballControl = obj.skills.dribbling.ballControl / 100
-    infos[0].data.heading = obj.skills.defense.heading / 100
+    infos[0].data.aerial = obj.skills.defense.heading / 100
     infos[0].data.shortPassing = obj.skills.passing.shortPassing / 100
 
     captions = {
-      defense: 'Top Kapma',
-      physical: 'Fiziksel',
-      pace: 'Hız',
-      vision: 'Vizyon',
-      attacking: "Ofansif",
-      ballControl: 'Teknik',
-      heading: 'Hava',
-      shortPassing: "Pas",
+      defense: 'Defending',
+      physical: 'Physical',
+      pace: 'Speed',
+      vision: 'Vision',
+      attacking: "Attacking",
+      ballControl: 'Technical',
+      aerial: 'Aerial',
+      shortPassing: "Passing",
     }
   }
   else if (obj.position == "RW" || obj.position == "LW" || obj.position == "ST" || obj.position == "CF") {
@@ -125,23 +125,23 @@ export default function App({obj}) {
     infos[0].data.vision = obj.skills.passing.vision / 100
     infos[0].data.attacking = obj.skills.attacking.index / 100
     infos[0].data.ballControl = obj.skills.dribbling.ballControl / 100
-    infos[0].data.heading = obj.skills.defense.heading / 100
+    infos[0].data.aerial = obj.skills.defense.heading / 100
     infos[0].data.positioning = obj.skills.attacking.positioning / 100
 
     captions = {
-      defense: 'Top Kapma',
-      physical: 'Fiziksel',
-      pace: 'Hız',
-      vision: 'Vizyon',
-      attacking: "Ofansif",
-      ballControl: 'Teknik',
-      heading: 'Hava',
-      positioning: "Pozisyon Alma"
+      defense: 'Defending',
+      physical: 'Physical',
+      pace: 'Speed',
+      vision: 'Vision',
+      attacking: "Attacking",
+      ballControl: 'Technical',
+      aerial: 'Aerial',
+      positioning: "Positioning"
     }
   }
 
   switch (obj.position) {
-    case "GK": infos[0].meta.color = "#ffeb3b"; break;
+    case "GK": infos[0].meta.color = "#ffc107"; break;
     case "CB":
     case "LB": 
     case "RB": infos[0].meta.color = "#4caf50"; break;
@@ -162,6 +162,7 @@ export default function App({obj}) {
       captions={captions}
       data={infos}
       options={defaultOptions}
+      size={350}
     />
   )
 }
