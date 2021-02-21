@@ -1,0 +1,1 @@
+{"id":9844,"fullname":"Erce Kardeşler","name":"erce-kardesler","birthday":"01/01/2000","height":184,"foot":"Right","country":"Turkey","league":"Turkey Süper Lig","team":"Trabzonspor","position":"GK","value":0,"rating":66,"ability":{"currently":0,"potential":0},"skills":{"diving":66,"handling":63,"kicking":62,"reflexes":67,"speed":42,"positioning":67}}
