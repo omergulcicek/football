@@ -7,7 +7,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   margin: 0;
-  padding-bottom: 1600px;
+  padding-bottom: 8px;
 }
 
 .shape {
@@ -154,4 +154,16 @@ article .images figure:last-child {
 article .graph {
   margin-top: 24px;
   text-align: center;
+}
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  display: block;
+  font-size: 18px;
+  height: 64px;
+  line-height: 64px;
+  margin: 40px auto;
+  text-indent: 16px;
+  width: 400px;
 }
