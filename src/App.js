@@ -8,7 +8,7 @@ export default function App() {
   const allItem = []
 
   search !== ""
-    ? players.filter(e => e.name.indexOf(search.toLocaleLowerCase()) > -1 || e.team.toLocaleLowerCase().indexOf(search.toLocaleLowerCase()) > -1 || e.country.toLocaleLowerCase().indexOf(search.toLocaleLowerCase()) > -1).sort((a, b) => (a.rating < b.rating) ? 1 : -1).forEach(e => allItem.push(<Item obj={e} />))
+    ? players.filter(e => e.name.indexOf(search.toLocaleLowerCase()) > -1 || e.team.toLocaleLowerCase().indexOf(search.toLocaleLowerCase()) > -1 || e.country.toLocaleLowerCase().indexOf(search.toLocaleLowerCase()) > -1 || e.position == search).sort((a, b) => (a.rating < b.rating) ? 1 : -1).forEach(e => allItem.push(<Item obj={e} />))
     
     : players.filter(e => e.team !== "Icons").sort((a, b) => (a.rating < b.rating) ? 1 : -1).forEach(e => allItem.push(<Item obj={e} />))
   
