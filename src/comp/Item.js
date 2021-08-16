@@ -1,7 +1,7 @@
 import Chart from "./Chart"
 
 export default function Item({obj}) {
-  const { fullname, name, birthday, height, team, country, rating, position } = obj
+  const { fullname, name, birthday, height, team, country, rating, position, value } = obj
 
   return (
     <article name={fullname} position={position}>
@@ -28,8 +28,8 @@ export default function Item({obj}) {
         </div>
 
         <div>
-          <span>{height}</span>
-          <span>Height</span>
+          <span>{value} mil. €</span>
+          <span>Value</span>
         </div>
       </div>
       
