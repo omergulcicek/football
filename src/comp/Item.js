@@ -40,7 +40,7 @@ export default function Item({obj}) {
         </figure>
         
         <figure>
-          <img src={require(`../img/player/${name}.png`).default} alt={name} width="240" height="240" />
+          {/* <img src={require(`../img/player/${name}.png`).default} alt={name} width="240" height="240" /> */}
         </figure>
       </div>
 

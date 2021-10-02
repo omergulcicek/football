@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 import Item from "./comp/Item"
-import players from "./players"
+import players from "./fifa22"
 
 export default function App() {
   const [search, setSearch] = useState("")

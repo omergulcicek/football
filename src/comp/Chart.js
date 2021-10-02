@@ -76,7 +76,7 @@ export default function App({obj}) {
       defAwareness: "Awareness"
     }
   }
-  else if (obj.position == "LB" || obj.position == "RB") {
+  else if (obj.position == "LB" || obj.position == "RB" || obj.position == "LWB" || obj.position == "RWB") {
     infos[0].data.defense = obj.skills.defense.index / 100
     infos[0].data.physical = obj.skills.physical.index / 100
     infos[0].data.pace = obj.skills.pace.index / 100
@@ -118,7 +118,7 @@ export default function App({obj}) {
       shortPassing: "Passing",
     }
   }
-  else if (obj.position == "RW" || obj.position == "LW" || obj.position == "ST" || obj.position == "CF") {
+  else if (obj.position == "RM" || obj.position == "LM" || obj.position == "RW" || obj.position == "LW" || obj.position == "ST" || obj.position == "CF") {
     infos[0].data.defense = obj.skills.defense.index / 100
     infos[0].data.physical = obj.skills.physical.index / 100
     infos[0].data.pace = obj.skills.pace.index / 100
@@ -143,11 +143,15 @@ export default function App({obj}) {
   switch (obj.position) {
     case "GK": infos[0].meta.color = "#ffc107"; break;
     case "CB":
+    case "LWB": 
+    case "RWB": 
     case "LB": 
     case "RB": infos[0].meta.color = "#4caf50"; break;
     case "CDM":
     case "CM":
     case "CAM": infos[0].meta.color = "#2196f3"; break;
+    case "LM":
+    case "RM":
     case "LW": 
     case "RW":
     case "ST": 
