@@ -1,0 +1,1 @@
+{"id":1676,"fullname":"Altay Bayındır","name":"altay-bayindir","height":null,"foot":"","country":"Turkey","league":"Süper Lig","team":"Fenerbahçe","position":"GK","value":0,"rating":77,"skills":{"diving":79,"handling":73,"kicking":71,"reflexes":81,"speed":21,"positioning":77}}

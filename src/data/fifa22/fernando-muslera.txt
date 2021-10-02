@@ -1,0 +1,1 @@
+{"id":464,"fullname":"Fernando Muslera","name":"fernando-muslera","height":null,"foot":"","country":"Uruguay","league":"Süper Lig","team":"Galatasaray","position":"GK","value":0,"rating":81,"skills":{"diving":84,"handling":78,"kicking":73,"reflexes":81,"speed":61,"positioning":82}}

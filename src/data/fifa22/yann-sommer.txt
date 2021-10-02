@@ -1,0 +1,1 @@
+{"id":301,"fullname":"Yann Sommer","name":"yann-sommer","height":null,"foot":"","country":"Switzerland","league":"Bundesliga","team":"M'gladbach","position":"GK","value":0,"rating":85,"skills":{"diving":79,"handling":81,"kicking":84,"reflexes":86,"speed":50,"positioning":86}}

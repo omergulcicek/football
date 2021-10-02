@@ -1,0 +1,1 @@
+{"id":233,"fullname":"Keylor Navas","name":"keylor-navas","birthday":"15/12/1986","height":185,"foot":"Right","country":"Costa Rica","league":"Ligue 1 Uber Eats","team":"Paris SG","position":"GK","value":0,"rating":88,"skills":{"diving":89,"handling":84,"kicking":75,"reflexes":89,"speed":54,"positioning":87}}

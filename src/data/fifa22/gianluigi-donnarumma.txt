@@ -1,0 +1,1 @@
+{"id":38,"fullname":"Gianluigi Donnarumma","name":"gianluigi-donnarumma","birthday":"25/02/1999","height":196,"foot":"Right","country":"Italy","league":"Ligue 1 Uber Eats","team":"Paris SG","position":"GK","value":0,"rating":89,"skills":{"diving":91,"handling":83,"kicking":79,"reflexes":90,"speed":52,"positioning":85}}

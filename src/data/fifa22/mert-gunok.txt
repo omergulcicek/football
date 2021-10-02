@@ -1,0 +1,1 @@
+{"id":1732,"fullname":"Mert Günok","name":"mert-gunok","height":null,"foot":"","country":"Turkey","league":"Süper Lig","team":"Beşiktaş","position":"GK","value":0,"rating":76,"skills":{"diving":73,"handling":72,"kicking":79,"reflexes":82,"speed":56,"positioning":79}}

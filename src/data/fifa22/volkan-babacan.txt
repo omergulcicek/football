@@ -1,0 +1,1 @@
+{"id":4152,"fullname":"Volkan Babacan","name":"volkan-babacan","height":null,"foot":"","country":"Turkey","league":"Süper Lig","team":"Başakşehir","position":"GK","value":0,"rating":71,"skills":{"diving":73,"handling":69,"kicking":67,"reflexes":71,"speed":50,"positioning":75}}

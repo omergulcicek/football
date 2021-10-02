@@ -1,0 +1,1 @@
+{"id":670,"fullname":"Uğurcan Çakır","name":"ugurcan-cakir","height":null,"foot":"","country":"Turkey","league":"Süper Lig","team":"Trabzonspor","position":"GK","value":0,"rating":79,"skills":{"diving":80,"handling":74,"kicking":71,"reflexes":82,"speed":54,"positioning":80}}

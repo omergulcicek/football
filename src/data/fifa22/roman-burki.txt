@@ -1,0 +1,1 @@
+{"id":85,"fullname":"Roman Bürki","name":"roman-burki","birthday":"14/11/1990","height":187,"foot":"Right","country":"Switzerland","league":"Bundesliga","team":"Borussia Dortmund","position":"GK","value":0,"rating":80,"skills":{"diving":81,"handling":79,"kicking":60,"reflexes":86,"speed":46,"positioning":77}}

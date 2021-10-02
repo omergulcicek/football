@@ -1,0 +1,1 @@
+{"id":615,"fullname":"Gianluigi Buffon","name":"gianluigi-buffon","height":null,"foot":"","country":"Italy","league":"Calcio B","team":"Parma","position":"GK","value":0,"rating":80,"skills":{"diving":76,"handling":73,"kicking":70,"reflexes":76,"speed":34,"positioning":90}}

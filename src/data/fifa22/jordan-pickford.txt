@@ -1,0 +1,1 @@
+{"id":378,"fullname":"Jordan Pickford","name":"jordan-pickford","height":null,"foot":"","country":"England","league":"Premier League","team":"Everton","position":"GK","value":0,"rating":83,"skills":{"diving":83,"handling":78,"kicking":87,"reflexes":86,"speed":49,"positioning":80}}

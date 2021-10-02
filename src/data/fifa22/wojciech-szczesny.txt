@@ -1,0 +1,1 @@
+{"id":329,"fullname":"Wojciech Szczęsny","name":"wojciech-szczesny","height":null,"foot":"","country":"Poland","league":"Serie A TIM","team":"Piemonte Calcio","position":"GK","value":0,"rating":87,"skills":{"diving":86,"handling":82,"kicking":73,"reflexes":88,"speed":49,"positioning":87}}

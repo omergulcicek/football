@@ -1,0 +1,1 @@
+{"id":811,"fullname":"Alban Lafont","name":"alban-lafont","height":null,"foot":"","country":"France","league":"Ligue 1 Uber Eats","team":"FC Nantes","position":"GK","value":0,"rating":78,"skills":{"diving":80,"handling":76,"kicking":69,"reflexes":82,"speed":47,"positioning":74}}

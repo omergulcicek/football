@@ -1,0 +1,1 @@
+{"id":16999,"fullname":"Lev Yashin","name":"lev-yashin","birthday":"22/10/1929","height":189,"foot":"Right","country":"Russia","league":"Icons","team":"Icons","position":"GK","value":0,"rating":94,"skills":{"diving":95,"handling":89,"kicking":75,"reflexes":96,"speed":65,"positioning":95}}

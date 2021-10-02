@@ -1,0 +1,1 @@
+{"id":31,"fullname":"Ederson Santana de Moraes","name":"ederson-santana-de-moraes","birthday":"17/08/1993","height":188,"foot":"Left","country":"Brazil","league":"Premier League","team":"Manchester City","position":"GK","value":0,"rating":89,"skills":{"diving":87,"handling":82,"kicking":93,"reflexes":88,"speed":64,"positioning":88}}

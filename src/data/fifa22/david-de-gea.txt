@@ -1,0 +1,1 @@
+{"id":363,"fullname":"David De Gea","name":"david-de-gea","height":null,"foot":"","country":"Spain","league":"Premier League","team":"Manchester Utd","position":"GK","value":0,"rating":84,"skills":{"diving":86,"handling":79,"kicking":76,"reflexes":87,"speed":57,"positioning":79}}

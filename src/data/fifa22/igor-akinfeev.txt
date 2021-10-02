@@ -1,0 +1,1 @@
+{"id":602,"fullname":"Igor Akinfeev","name":"igor-akinfeev","height":null,"foot":"","country":"Russia","league":"League of Russia","team":"CSKA Moscow","position":"GK","value":0,"rating":80,"skills":{"diving":77,"handling":72,"kicking":78,"reflexes":84,"speed":51,"positioning":82}}

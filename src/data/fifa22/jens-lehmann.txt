@@ -1,0 +1,1 @@
+{"id":17080,"fullname":"Jens Lehmann","name":"jens-lehmann","birthday":"10/11/1969","height":190,"foot":"Right","country":"Germany","league":"Icons","team":"Icons","position":"GK","value":0,"rating":90,"skills":{"diving":87,"handling":91,"kicking":86,"reflexes":86,"speed":59,"positioning":90}}

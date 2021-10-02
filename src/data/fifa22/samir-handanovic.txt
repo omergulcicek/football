@@ -1,0 +1,1 @@
+{"id":143,"fullname":"Samir Handanovič","name":"samir-handanovic","birthday":"14/07/1984","height":193,"foot":"Right","country":"Slovenia","league":"Serie A TIM","team":"Inter","position":"GK","value":0,"rating":86,"skills":{"diving":81,"handling":81,"kicking":65,"reflexes":87,"speed":47,"positioning":92}}

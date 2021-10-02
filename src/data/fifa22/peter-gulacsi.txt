@@ -1,0 +1,1 @@
+{"id":302,"fullname":"Péter Gulácsi","name":"peter-gulacsi","height":null,"foot":"","country":"Hungary","league":"Bundesliga","team":"RB Leipzig","position":"GK","value":0,"rating":85,"skills":{"diving":85,"handling":84,"kicking":76,"reflexes":86,"speed":43,"positioning":82}}

@@ -1,0 +1,1 @@
+{"id":34,"fullname":"Alisson Ramses Becker","name":"alisson-ramses-becker","birthday":"02/10/1992","height":191,"foot":"Right","country":"Brazil","league":"Premier League","team":"Liverpool","position":"GK","value":0,"rating":89,"skills":{"diving":86,"handling":86,"kicking":84,"reflexes":89,"speed":52,"positioning":90}}

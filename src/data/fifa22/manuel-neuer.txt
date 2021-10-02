@@ -1,0 +1,1 @@
+{"id":41,"fullname":"Manuel Neuer","name":"manuel-neuer","birthday":"27/03/1986","height":193,"foot":"Right","country":"Germany","league":"Bundesliga","team":"FC Bayern München","position":"GK","value":0,"rating":90,"skills":{"diving":88,"handling":88,"kicking":91,"reflexes":88,"speed":56,"positioning":89}}

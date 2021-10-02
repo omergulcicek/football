@@ -1,0 +1,1 @@
+{"id":393,"fullname":"Bernd Leno","name":"bernd-leno","height":null,"foot":"","country":"Germany","league":"Premier League","team":"Arsenal","position":"GK","value":0,"rating":83,"skills":{"diving":85,"handling":80,"kicking":76,"reflexes":85,"speed":55,"positioning":83}}

@@ -1,0 +1,1 @@
+{"id":17073,"fullname":"Peter Schmeichel","name":"peter-schmeichel","birthday":"18/11/1963","height":193,"foot":"Right","country":"Denmark","league":"Icons","team":"Icons","position":"GK","value":0,"rating":92,"skills":{"diving":92,"handling":87,"kicking":88,"reflexes":94,"speed":52,"positioning":90}}

@@ -1,0 +1,1 @@
+{"id":725,"fullname":"Alex Meret","name":"alex-meret","height":null,"foot":"","country":"Italy","league":"Serie A TIM","team":"Napoli","position":"GK","value":0,"rating":79,"skills":{"diving":80,"handling":74,"kicking":70,"reflexes":82,"speed":44,"positioning":78}}

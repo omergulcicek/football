@@ -1,0 +1,1 @@
+{"id":40,"fullname":"Marc-André ter Stegen","name":"marc-andre-ter-stegen","birthday":"30/04/1992","height":187,"foot":"Right","country":"Germany","league":"LaLiga Santander","team":"FC Barcelona","position":"GK","value":0,"rating":90,"skills":{"diving":88,"handling":85,"kicking":88,"reflexes":90,"speed":43,"positioning":88}}

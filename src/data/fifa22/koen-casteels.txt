@@ -1,0 +1,1 @@
+{"id":305,"fullname":"Koen Casteels","name":"koen-casteels","height":null,"foot":"","country":"Belgium","league":"Bundesliga","team":"VfL Wolfsburg","position":"GK","value":0,"rating":86,"skills":{"diving":85,"handling":83,"kicking":80,"reflexes":87,"speed":45,"positioning":84}}

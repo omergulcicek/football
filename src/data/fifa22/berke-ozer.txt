@@ -1,0 +1,1 @@
+{"id":7066,"fullname":"Berke Özer","name":"berke-ozer","height":null,"foot":"","country":"Turkey","league":"Süper Lig","team":"Fenerbahçe","position":"GK","value":0,"rating":68,"skills":{"diving":66,"handling":70,"kicking":69,"reflexes":73,"speed":20,"positioning":64}}

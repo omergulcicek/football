@@ -1,0 +1,1 @@
+{"id":64,"fullname":"Kepa Arrizabalaga","name":"kepa-arrizabalaga","birthday":"03/10/1994","height":186,"foot":"Right","country":"Spain","league":"Premier League","team":"Chelsea","position":"GK","value":0,"rating":79,"skills":{"diving":78,"handling":77,"kicking":85,"reflexes":81,"speed":34,"positioning":76}}

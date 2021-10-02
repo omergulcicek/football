@@ -1,0 +1,1 @@
+{"id":17029,"fullname":"Edwin van der Sar","name":"edwin-van-der-sar","birthday":"29/10/1970","height":197,"foot":"Right","country":"Netherlands","league":"Icons","team":"Icons","position":"GK","value":0,"rating":91,"skills":{"diving":85,"handling":90,"kicking":81,"reflexes":89,"speed":40,"positioning":95}}

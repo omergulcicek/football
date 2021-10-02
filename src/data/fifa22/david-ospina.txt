@@ -1,0 +1,1 @@
+{"id":677,"fullname":"David Ospina","name":"david-ospina","height":null,"foot":"","country":"Colombia","league":"Serie A TIM","team":"Napoli","position":"GK","value":0,"rating":79,"skills":{"diving":82,"handling":72,"kicking":77,"reflexes":84,"speed":34,"positioning":77}}

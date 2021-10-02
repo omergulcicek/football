@@ -1,0 +1,1 @@
+{"id":2729,"fullname":"Aaron Ramsdale","name":"aaron-ramsdale","height":null,"foot":"","country":"England","league":"Premier League","team":"Arsenal","position":"GK","value":0,"rating":74,"skills":{"diving":75,"handling":72,"kicking":69,"reflexes":76,"speed":48,"positioning":71}}

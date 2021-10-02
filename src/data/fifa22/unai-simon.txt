@@ -1,0 +1,1 @@
+{"id":452,"fullname":"Unai Simón","name":"unai-simon","height":null,"foot":"","country":"Spain","league":"LaLiga Santander","team":"Athletic Club","position":"GK","value":0,"rating":82,"skills":{"diving":82,"handling":77,"kicking":76,"reflexes":84,"speed":47,"positioning":85}}
