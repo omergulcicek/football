@@ -1,0 +1,1 @@
+{"id":4026,"fullname":"Ersin Destanoğlu","name":"ersin-destanoglu","height":null,"foot":"","country":"Turkey","league":"Süper Lig","team":"Beşiktaş","position":"GK","value":0,"rating":72,"skills":{"diving":72,"handling":75,"kicking":65,"reflexes":73,"speed":32,"positioning":70}}
